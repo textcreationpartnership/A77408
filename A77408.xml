@@ -1,0 +1,924 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>A Brief chronicle of the Turkish War, from July to January, 1664 turned out of high-Dutch ; together with his Imperial Majesties reasons for the undertaking of the war, and a map for the better understanding of the story.</title>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <date>1664</date>
+            </edition>
+         </editionStmt>
+         <extent>Approx. 120 KB of XML-encoded text transcribed from 67 1-bit group-IV TIFF page images.</extent>
+         <publicationStmt>
+            <publisher>Text Creation Partnership,</publisher>
+            <pubPlace>Ann Arbor, MI ; Oxford (UK) :</pubPlace>
+            <date when="2013-12">2013-12 (EEBO-TCP Phase 2).</date>
+            <idno type="DLPS">A77408</idno>
+            <idno type="STC">Wing B4552</idno>
+            <idno type="STC">ESTC R43608</idno>
+            <idno type="EEBO-CITATION">42475015</idno>
+            <idno type="OCLC">ocm 42475015</idno>
+            <idno type="VID">151117</idno>
+            <availability>
+               <p>To the extent possible under law, the Text Creation Partnership has waived all copyright and related or neighboring rights to this keyboarded and encoded edition of the work described above, according to the terms of the CC0 1.0 Public Domain Dedication (http://creativecommons.org/publicdomain/zero/1.0/). This waiver does not extend to any page images or other supplementary files associated with this work, which may be protected by copyright or other license restrictions. Please go to https://www.textcreationpartnership.org/ for more information about the project.</p>
+            </availability>
+         </publicationStmt>
+         <seriesStmt>
+            <title>Early English books online.</title>
+         </seriesStmt>
+         <notesStmt>
+            <note>(EEBO-TCP ; phase 2, no. A77408)</note>
+            <note>Transcribed from: (Early English Books Online ; image set 151117)</note>
+            <note>Images scanned from microfilm: (Early English books, 1641-1700 ; 2244:3)</note>
+         </notesStmt>
+         <sourceDesc>
+            <biblFull>
+               <titleStmt>
+                  <title>A Brief chronicle of the Turkish War, from July to January, 1664 turned out of high-Dutch ; together with his Imperial Majesties reasons for the undertaking of the war, and a map for the better understanding of the story.</title>
+               </titleStmt>
+               <extent>[16], 112 p.   </extent>
+               <publicationStmt>
+                  <publisher>Printed by Tho. Mabb fo[r] Henry Brome, at the Gun in Ivy-Lane,</publisher>
+                  <pubPlace>London :</pubPlace>
+                  <date>1664.</date>
+               </publicationStmt>
+               <notesStmt>
+                  <note>"Imprimatur, April 18. 1664. Roger L'Strange"--P. [16].</note>
+                  <note>Imperfect: lacks map.</note>
+                  <note>Reproduction of original in: Bodleian Library.</note>
+               </notesStmt>
+            </biblFull>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Created by converting TCP files to TEI P5 using tcp2tei.xsl,
+      TEI @ Oxford.
+      </p>
+         </projectDesc>
+         <editorialDecl>
+            <p>EEBO-TCP is a partnership between the Universities of Michigan and Oxford and the publisher ProQuest to create accurately transcribed and encoded texts based on the image sets published by ProQuest via their Early English Books Online (EEBO) database (http://eebo.chadwyck.com). The general aim of EEBO-TCP is to encode one copy (usually the first edition) of every monographic English-language title published between 1473 and 1700 available in EEBO.</p>
+            <p>EEBO-TCP aimed to produce large quantities of textual data within the usual project restraints of time and funding, and therefore chose to create diplomatic transcriptions (as opposed to critical editions) with light-touch, mainly structural encoding based on the Text Encoding Initiative (http://www.tei-c.org).</p>
+            <p>The EEBO-TCP project was divided into two phases. The 25,368 texts created during Phase 1 of the project (2000-2009), initially available only to institutions that contributed to their creation, were released into the public domain on 1 January 2015. The approximately 40,000 texts produced during Phase 2 (2009- ), of which 34,963 had been released as of 2020, originally similarly restricted, were similarly freed from all restrictions on 1 August 2020. As of that date anyone is free to take and use these texts for any purpose (modify them, annotate them, distribute them, etc.). But we do respectfully request that due credit and attribution be given to their original source.</p>
+            <p>Users should be aware of the process of creating the TCP texts, and therefore of any assumptions that can be made about the data.</p>
+            <p>Text selection was based on the New Cambridge Bibliography of English Literature (NCBEL). If an author (or for an anonymous work, the title) appears in NCBEL, then their works are eligible for inclusion. Selection was intended to range over a wide variety of subject areas, to reflect the true nature of the print record of the period. In general, first editions of a works in English were prioritized, although there are a number of works in other languages, notably Latin and Welsh, included and sometimes a second or later edition of a work was chosen if there was a compelling reason to do so.</p>
+            <p>Image sets were sent to external keying companies for transcription and basic encoding. Quality assurance was then carried out by editorial teams in Oxford and Michigan. 5% (or 5 pages, whichever is the greater) of each text was proofread for accuracy and those which did not meet QA standards were returned to the keyers to be redone. After proofreading, the encoding was enhanced and/or corrected and characters marked as illegible were corrected where possible up to a limit of 100 instances per text. Any remaining illegibles were encoded as &lt;gap&gt;s. Understanding these processes should make clear that, while the overall quality of TCP data is very good, some errors will remain and some readable characters will be marked as illegible. Users should bear in mind that in all likelihood such instances will never have been looked at by a TCP editor.</p>
+            <p>The texts were encoded and linked to page images in accordance with level 4 of the TEI in Libraries guidelines.</p>
+            <p>Copies of the texts have been issued variously as SGML (TCP schema; ASCII text with mnemonic sdata character entities); displayable XML (TCP schema; characters represented either as UTF-8 Unicode or text strings within braces); or lossless XML (TEI P5, characters represented either as UTF-8 Unicode or TEI g elements).</p>
+            <p>Keying and markup guidelines are available at the <ref target="http://www.textcreationpartnership.org/docs/.">Text Creation Partnership web site</ref>.</p>
+         </editorialDecl>
+         <listPrefixDef>
+            <prefixDef ident="tcp"
+                       matchPattern="([0-9\-]+):([0-9IVX]+)"
+                       replacementPattern="http://eebo.chadwyck.com/downloadtiff?vid=$1&amp;page=$2"/>
+            <prefixDef ident="char"
+                       matchPattern="(.+)"
+                       replacementPattern="https://raw.githubusercontent.com/textcreationpartnership/Texts/master/tcpchars.xml#$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="eng">eng</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="http://authorities.loc.gov/">
+               <term>Austro-Turkish War, 1661-1664.</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change>
+            <date>2012-06</date>
+            <label>TCP</label>Assigned for keying and markup</change>
+         <change>
+            <date>2012-06</date>
+            <label>SPi Global</label>Keyed and coded from ProQuest page images</change>
+         <change>
+            <date>2012-07</date>
+            <label>Ali Jakobson</label>Sampled and proofread</change>
+         <change>
+            <date>2012-07</date>
+            <label>Ali Jakobson</label>Text and markup reviewed and edited</change>
+         <change>
+            <date>2013-02</date>
+            <label>pfs</label>Batch review (QC) and XML conversion</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <group>
+         <text xml:lang="eng">
+            <front>
+               <div type="title_page">
+                  <pb facs="tcp:151117:1" rendition="simple:additions"/>
+                  <p>A Brief Chronicle OF THE TURKISH WAR, From <hi>July</hi> to <hi>January,</hi> 166<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                        <desc>•</desc>
+                     </gap> Turned out of <hi>High-Dutch.</hi>
+                  </p>
+                  <p>TOGETHER With his Imperial Majeſties <hi>Rea<g ref="char:EOLhyphen"/>ſons</hi> for the undertaking of the War, and a Map for the better underſtanding of the Story.</p>
+                  <p>
+                     <hi>LONDON,</hi> Printed by <hi>Tho. Mabb,</hi> fo <hi>Henry Brome,</hi> at the <hi>Gun</hi> in <hi>Ivy-Lane,</hi> 1664</p>
+               </div>
+               <div type="to_the_reader">
+                  <pb facs="tcp:151117:2"/>
+                  <pb facs="tcp:151117:2"/>
+                  <head>TO THE READER.</head>
+                  <p>
+                     <seg rend="decorInit">T</seg>HE <hi>Turkiſh</hi> War upon the <hi>Empire,</hi> being at preſent the Great Action of <hi>Chri<g ref="char:EOLhyphen"/>ſtendom;</hi> and that where<g ref="char:EOLhyphen"/>upon all Mens Eyes, and thoughts are fix'd, who have any Conſideration, even for <hi>Chriſti<g ref="char:EOLhyphen"/>anity</hi> it ſelf: It will perchance be a work not unacceptable, to give the World a brief Relation of the <hi>Riſe,</hi> and <hi>Progreſs</hi> of the Quarrel; which is the Buſineſs of this lit<g ref="char:EOLhyphen"/>tle Treatiſe, being a <hi>Narrative</hi> of the moſt Remarkable Paſſages of the laſt <hi>Campag<g ref="char:EOLhyphen"/>nia,</hi> Written in <hi>High Dutch</hi> by an Indu<g ref="char:EOLhyphen"/>ſtrious, and Carefull Hand, and turned into <hi>Engliſh,</hi> for the Satisfaction of the <hi>Engliſh Reader.</hi> There is likewiſe Order taken for a Continuation of the Story, which ſhall come forth in its due time, be<g ref="char:EOLhyphen"/>ing Committed to the Care of diverſe In<g ref="char:EOLhyphen"/>telligent Perſons, where the <hi>Scene</hi> lyes, to gather the <hi>Materials</hi> for it; to the End, that nothing Worthy of Obſervation
+<pb facs="tcp:151117:3"/>may be omitted. As to the Narrative in Hand; (to give the Reader a clearer Proſpect of the Matter;) We ſhall <g ref="char:V">Ʋ</g>ſher it in, with an Accompt Lately deliver'd to the <hi>States General</hi> by Count <hi>Zinzen<g ref="char:EOLhyphen"/>dorf,</hi> (his <hi>Imperial</hi> Majeſties <hi>Envoyé</hi> at the <hi>H<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                           <desc>•</desc>
+                        </gap>gue</hi>) concerning the <hi>Reaſons</hi> of the War, and ſo proceed.</p>
+                  <div type="part">
+                     <head>The <hi>Reaſons,</hi> whereupon was grounded the Propoſal from his Sacred <hi>Imperial</hi> Majeſty, to their Honorable Lordſhips the <hi>States General,</hi> which they may be plea<g ref="char:EOLhyphen"/>ſed to Weigh, and Conſider.</head>
+                     <p n="1">
+                        <hi>1.</hi> THat His Sacred Majeſty gave no Cauſe for this War; but that Perpetual, and Irreconcilable Enemy to <hi>Chriſtianity,</hi> provoked by no Injurie; without any Colour, or Pretence of Juſtice, or Honeſty; In the Year <hi>1660.</hi> Seized upon <hi>Waradine,</hi> a ſtrong Caſtle on the very Borders of <hi>Hungary,</hi> which he Garriſon'd with a great party to infeſt the Neighbou<g ref="char:EOLhyphen"/>ring <hi>Provinces.</hi>
+                     </p>
+                     <p n="2">
+                        <pb facs="tcp:151117:3"/>
+                        <hi>2.</hi> 
+                        <g ref="char:V">Ʋ</g>pon which account, his Sacred <hi>Imperial</hi> Majeſty, was not onely forc'd to Raiſe a ſuddain Army <hi>Himſelf,</hi> to oppoſe ſo great an Enemy, but alſo to call for ayd from the other Princes and States of the <hi>Empire;</hi> as likewiſe to look out to other <hi>Chriſtian Kings</hi> and <hi>States,</hi> unleſſe he would have expoſed the whole Kingdom of <hi>Hungary</hi> to preſent danger, and let thoſe Royal Provinces of <hi>Tranſylvania, Wil<g ref="char:EOLhyphen"/>lachia,</hi> and <hi>Moldavia</hi> be rent off from <hi>Chriſtendom,</hi> and Enſlav'd to the <hi>Tur<g ref="char:EOLhyphen"/>kiſh</hi> Empire.</p>
+                     <p n="3">
+                        <hi>3.</hi> When the Enemy gave ſome hopes of a Friendly Compoſing the Buſines, his Sa<g ref="char:EOLhyphen"/>cred <hi>Imperial</hi> Majeſty was defective in nothing which upon hon ſt Conditions might conduce to Peace.</p>
+                     <p n="4">
+                        <hi>4.</hi> When the laſt Year a Treaty was be<g ref="char:EOLhyphen"/>gun between his Majeſties Ambaſſad<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                           <desc>•</desc>
+                        </gap>ur, and <hi>Ati Baſſa,</hi> Plenipotentiary from the <hi>Turk,</hi> which afterwards was by Common Conſent perfected, and in Expectation of a Ratification, then began other more weigh<g ref="char:EOLhyphen"/>ty Conditions to be required, and harder <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                           <desc>•</desc>
+                        </gap>erms, with a great deal of Perfidiouſneſs, were almoſt impoſed upon us: And at last
+<pb facs="tcp:151117:4"/>having gathered a great Number of Forces together, both out of <hi>Aſia</hi> and <hi>Europe,</hi> vio<g ref="char:EOLhyphen"/>lating the Faith and Religion of all former <hi>Treaties,</hi> he brake into <hi>Hungary</hi> at the ſame Inſtant, both Proclaiming, and Wa<g ref="char:EOLhyphen"/>ging War; (His Majeſties <hi>Embaſſadour,</hi> contrary to the Law of Nations, detain'd by force,) was proudly, and contumeliouſly uſed.</p>
+                     <p n="5">
+                        <hi>5.</hi> 'Tis clear, this fraudulent Enemy hath taken his opportunity in a time, when his Majeſties <hi>Hereditary</hi> Dominions have been exhauſted by continual Wars, and other Cauſes; as likewiſe almoſt all other <hi>Chri<g ref="char:EOLhyphen"/>ſtian Princes</hi> weakned, by Civil Diſcords amongſt themſelves.</p>
+                     <p n="6">
+                        <hi>6.</hi> Notwithſtanding which, his Sacred <hi>Impeiral</hi> Majeſty, and his Dominions have omitted nothing, whereby they might ſuſtain the burthen of ſo great a War, by their own ſtrength, and hinder the progreſs of the Enemy until the Aſſiſtance from the Princes of the <hi>Empire</hi> could be ready.</p>
+                     <p n="7">
+                        <hi>7.</hi> Which neither coming in time, nor with ſo conſiderable a Force as was neceſſa<g ref="char:EOLhyphen"/>rily requir'd, the ſtorms ſpread further: <hi>Newhauſel,</hi> and other Cities of leſs Note
+<pb facs="tcp:151117:4"/>were ſubdued by the <hi>Turks; Moravia</hi> laid wast by the Incurſions of the <hi>Tartars;</hi> many Thouſand <hi>Chriſtians</hi> carried away to perpetual Captivity, The Faith and Con<g ref="char:EOLhyphen"/>ſtancy of <hi>Tranſylvania</hi> wavered; and which is moſt conſiderable, the Ambitious Enemy took courage from his Succeſs; So that now he doth not onely promiſe himſelf the Kingdome of <hi>Hungary,</hi> but likewiſe publickly boaſts, that he will ſuddainly be Head of the <hi>Weſtern Empire.</hi>
+                     </p>
+                     <p n="8">
+                        <hi>8.</hi> To which purpoſe, as we are inform'd from good hands, he intends to be in the Field the next Spring, and with a greater Force then formerly, ſet upon his <hi>Imperial</hi> Majeſty, and the <hi>Chriſtian Empire,</hi> re<g ref="char:EOLhyphen"/>ſolving to carry away with him all that he meeteth with from fourteen Years of Age to Sixty</p>
+                     <p n="9">
+                        <hi>9.</hi> 'I is true indeed, the danger of this War doth more immediatly hang over his <hi>Imperial</hi> Majeſty, and his Dominions, but then it is not leſs a truth, that all other <hi>Chriſtian Princes,</hi> both in General and Particular are concern'd.</p>
+                     <p n="10">
+                        <hi>10.</hi> Not onely becauſe all profeſſing <hi>Chriſtianity</hi> are by that Bond united into
+<pb facs="tcp:151117:5"/>one Body, eſpeicall againſt him who equally deteſts all, taking his firſt Riſe from the Ruines of <hi>Chriſtian</hi> Kingdoms; particu<g ref="char:EOLhyphen"/>larly the <hi>Eaſtern Empire</hi> it ſelf, and now deſires nothing more then by propagating the <hi>Mahumetan</hi> Superſtition, to extin<g ref="char:EOLhyphen"/>guiſh <hi>Chriſtian</hi> Religion</p>
+                     <p n="11">
+                        <hi>11.</hi> But in another reſpect it is clear, that the Event of this War doth concern All, and every One, although they regard nothing but their own ſecurity</p>
+                     <p n="12">
+                        <hi>12.</hi> For ſeeing it is manifeſt, the King<g ref="char:EOLhyphen"/>dome of <hi>Hungary,</hi> and other his Majeſties Dominions have been for a long time the ſole Bulwark of <hi>Chriſtendom;</hi> and no leſſe manifeſt that, That being broke through, the reſt lies open to an Infinite Rab<g ref="char:EOLhyphen"/>ble of <hi>Barbarians<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                              <desc>•</desc>
+                           </gap>; Germany</hi> being in the midſt of <hi>Europe,</hi> and joyning upon moſt <hi>Chriſtian</hi> Kingdoms; the Conſequence muct needs be this; His Sacred Majeſty, and the ſtrength of the <hi>Empire</hi> being once over-thrown, (which God forbid) that Cruel Enemy will lye heavy upon them all, and be equally formidable to every one of them.</p>
+                     <p n="13">
+                        <hi>13.</hi> Neither is he only ſo for number of
+<pb facs="tcp:151117:5"/>Souldiers, (which all <hi>Chriſtian</hi> Princes ſhould they Muſter their Forces together, would ſcare equall) but likewiſe for Mili<g ref="char:EOLhyphen"/>tary Diſcipline; for in ſo numerous an Army there is none, that drink Wine; are delicate in the Dyet, or in any other un<g ref="char:EOLhyphen"/>neceſſaries: none that maintain <hi>Char<g ref="char:EOLhyphen"/>riots Feuds, Women,</hi> or any ſuch like Impediments of War: So that the <hi>Turks</hi> can with leſs charge maintain <hi>Three Hun<g ref="char:EOLhyphen"/>dred Thouſand</hi> in Armes, then any <hi>Chriſtian</hi> Prince <hi>Fifty Thouſand.</hi>
+                     </p>
+                     <p n="14">
+                        <hi>14.</hi> Moreover, he hath this Advantage, he never regardeth the loſſe of his Men; the Effuſion of whoſe blood he careth not for, ſo he may gain his deſign upon thoſe he Warreth againſt; Subduing Town, and Country: the Common Souldiers them<g ref="char:EOLhyphen"/>ſelves, out of a ſtrange Superſtitious per<g ref="char:EOLhyphen"/>ſwaſion, voluntarily devoting their Lives to his Service, whilſt all <hi>Chriſtian</hi> Princes are in another Condition, there being no Victory ſo great, but may be purchaſed too dear by <hi>Chriſtian</hi> Blood.</p>
+                     <p n="15">
+                        <hi>15.</hi> To theſe, we may add, that at this time (to the great diſgrace of <hi>Chriſten<g ref="char:EOLhyphen"/>dome</hi>) the <hi>Turk</hi> hath verynigh a perfect
+<pb facs="tcp:151117:6"/>Army of <hi>Chriſtian Rebells,</hi> and <hi>Rene<g ref="char:EOLhyphen"/>gadoes;</hi> who being formerly brought up in Warrs amongſt <hi>Chriſtian</hi> Princes, by en<g ref="char:EOLhyphen"/>gaging themſelves to the <hi>Turk,</hi> teach them the readieſt way of Pitching Battles, Be<g ref="char:EOLhyphen"/>ſieging Towns, and ordering their Camp, heretofore not know by them.</p>
+                     <p n="16">
+                        <hi>16.</hi> In the Common cauſe this is the ſole difference; his <hi>Imperial</hi> Majeſty cannot venture without ſome conſiderable danger, <hi>every wound given</hi> him (as the Proverb is) <hi>goes to the heart;</hi> but other Princes may engage without any Conſiderable da<g ref="char:EOLhyphen"/>mage, in reſpect of their power and ſtrength, ſo that they ſhall not partake of his Maje<g ref="char:EOLhyphen"/>ſties danger, but gain to themſelves Eternal praiſe and honour.</p>
+                     <p n="17">
+                        <hi>17. Six Hundred Years</hi> agoe, and diverſe times ſince, the <hi>Chriſtian</hi> Princes undertook a <hi>Forreign</hi> Expedition againſt the <hi>Turk;</hi> onely out of a deſign to propagate the <hi>Chriſtian Cauſe;</hi> and the Common people Emulating their piety, Contributed thereunto voluntarily upon their own account.</p>
+                     <p n="18">
+                        <hi>18.</hi> Neither is it probable any <hi>Chri<g ref="char:EOLhyphen"/>ſtian</hi> Princes have ſo far degenerated from
+<pb facs="tcp:151117:6"/>the piety of their Anceſtors, as not to aſſiſt the ſame Cauſe, which is now more neceſſary, becauſe to repell, not wage a War; ſo that that confederacy cannot but be moſt accep<g ref="char:EOLhyphen"/>table to God, wherein all <hi>Chriſtian</hi> Princes unanimouſly agree to maintain the Common Cauſe of <hi>
+                           <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                              <desc>•</desc>
+                           </gap>hriſtendom.</hi>
+                     </p>
+                     <p n="19">
+                        <hi>19.</hi> The Report of this Confederacy (for Fame makes all things ſound at the beſt) may not alittle Contribute towards the War, or at leaſt-wayes take from the Ene<g ref="char:EOLhyphen"/>my that hope, which he hath hitherto pro<g ref="char:EOLhyphen"/>mis'd himſelf from the diſcords of <hi>Chri<g ref="char:EOLhyphen"/>ſtian</hi> Princes, by which means he will not be ſo far Conceited, but dread that Power when united, which he Contemned, whilſt divided into Factions.</p>
+                     <p n="20">
+                        <hi>20.</hi> However things happen, his Sacred Majeſty, under the protection of Divine Providence is reſolv'd to venture, and Sa<g ref="char:EOLhyphen"/>crifice, both to his own, and Peoples For<g ref="char:EOLhyphen"/>tunes in defence of Himſelf, and the Pub<g ref="char:EOLhyphen"/>lick good.</p>
+                     <p n="21">
+                        <hi>21.</hi> But leaſt he ſhould ſeem defective in that which was his Duty, (it being a ſatis<g ref="char:EOLhyphen"/>faction in misfortune to have omitted no<g ref="char:EOLhyphen"/>thing, that might prevent it) he thought fit
+<pb facs="tcp:151117:7"/>to ſend ſome of his Chief Nobility to moſt Princes in <hi>Chriſtendom,</hi> that as well by his Entreaty, as Example, they might par<g ref="char:EOLhyphen"/>ticipate of ſo Glorious and Enterprize.</p>
+                     <p n="22">
+                        <hi>22.</hi> Which thing having once purpos'd, He immediately thought upon their Ho<g ref="char:EOLhyphen"/>nourable Lordſhips the <hi>States General,</hi> not doubting, but that their Prudence, and Acquaintance with ſuch Affairs will give an anſwer that may be an Example to other Princes, and let them underſtand that a Common danger, is to be Engaged againſt by a Common Charge and Councell, hoping they will give ſuch Aſſiſtance as ſhall be agreeable to the greatneſs of the danger, the Dignity which they bear amongſt other <hi>Chriſtian States;</hi> the Publick and Pri<g ref="char:EOLhyphen"/>vate Wealth of thoſe <hi>Provinces</hi> they com<g ref="char:EOLhyphen"/>mand and that Glory which hath accru'd to them both in Peace, and War; and laſtly to the True, and ſincere Friendſhip which hath alwayes been between them, and the <hi>Roman Empire.</hi>
+                     </p>
+                     <p n="23">
+                        <hi>23.</hi> Eſpecially when they well know there ſeldome occurrs Matter for ſo much Virtue and Praiſe, and therefore his Ma<g ref="char:EOLhyphen"/>jeſty doth eaſily aſſure himſelf that upon
+<pb facs="tcp:151117:7"/>their own accord they would engage inſo Holy a War, and not ſuffer the <hi>Chriſtian Cauſe</hi> to be Over-thrown, or ſtand ſtill whilſt others reap the Glory.</p>
+                     <p n="24">
+                        <hi>24.</hi> One thing more muſt be obſerv'd, that the Greateſt Concern in the Affaire, Conſiſts in the Expedition, which as it Commends all Courteſies; ſo it is abſolutely neceſſary to this that his Majeſty may have ſufficient time to anticipate the Councel of his Enemies.</p>
+                     <p n="25">
+                        <hi>25.</hi> But above all things, this muſt be taken notice of <hi>(viz.)</hi> how much it concerns all men that will bear part in ſo Pious a work, that this Year, or as ſoon as can be, the War be undertaken, that ſo the Enemy being fruſtrated of his deſign of overcoming <hi>Hungary,</hi> and Subverting the <hi>Roman Empire,</hi> may be willing to Embrace an ho<g ref="char:EOLhyphen"/>neſt Peace, which is a happineſs his Majeſty cannot promiſe himſelf, unleſs aſſiſted from other <hi>Chriſtian Princes;</hi> all being little enough, either to obtain the Victory, or con<g ref="char:EOLhyphen"/>tinue the War.</p>
+                     <p n="26">
+                        <hi>26.</hi> But the War being prolonged for ſome Years, the whole Strength of the <hi>Em<g ref="char:EOLhyphen"/>pire</hi> will be conſum'd, and by Conſequence
+<pb facs="tcp:151117:8"/>a greater neceſſity of requiring <hi>Forreign</hi> Ayd, which in ſo miſerable a Condition cannot be denyed, by thoſe that regard their own ſecurity; ſo that we may ſay, how much the leſs <hi>Chriſtian Princes</hi> contribute this Summer to the War; ſo much the more will they be fore't to give for the Future, neither then will it conduce ſo much to their praiſe, becauſe requiſite to their preſervation.</p>
+                     <p n="27">
+                        <hi>27.</hi> This is all his Majeſty thought fit to Enform their Lordſhips of, though he might have added much more, but choſe rather to omit it, least he ſhould ſeem to doubt their Lordſhips willingneſs to Embrace ſo Noble a <hi>Specimen</hi> of a pious and generous a ſpirit, as it muſt needs be to ayd a diſtreſs'd Friend.</p>
+                     <p n="28">
+                        <hi>28.</hi> As for the form and mannerof ſend<g ref="char:EOLhyphen"/>ing the Aſſiſtance, it is very reaſonable the whole Buſineſs ſhould be left to the prudence and diſcretion of their Lordſhips; unleſs it may be thought expedient, that their Lord<g ref="char:EOLhyphen"/>ſhips Commiſſioners, together with the un<g ref="char:EOLhyphen"/>derwritten <hi>Envoyé Extra;</hi> from his <hi>Im<g ref="char:EOLhyphen"/>perial Majeſty</hi> ſhould Examine, by what meanes the Buſineſs may be beſt perform'd, for the Publick Good, and leaſt to their loſs and dammage.</p>
+                     <p n="29">
+                        <pb facs="tcp:151117:8"/>
+                        <hi>29.</hi> And as the Conſcience of ſo Noble a Fact, is a ſufficient Reward to valiant Spirits; ſo his Majeſty, and all the Princes of the <hi>Roman Empire</hi> ſhall for ever keep in memory, the greatneſs of the favour, and do promiſe upon the Faith of <hi>Germany,</hi> if occaſion ſever, they ſhall be willing to repay, what ever Obligations your Lordſhips will lay upon them.</p>
+                  </div>
+               </div>
+               <div type="imprimatur">
+                  <pb facs="tcp:151117:9"/>
+                  <p>Imprimatur,</p>
+                  <closer>
+                     <date>
+                        <hi>April 18. 1664.</hi>
+                     </date>
+                     <signed>Roger L' Strange.</signed>
+                  </closer>
+               </div>
+            </front>
+            <body>
+               <div type="text">
+                  <pb n="1" facs="tcp:151117:9"/>
+                  <head>A Brief Chronicle Of the Late TVRKISH WAR.</head>
+                  <p>COncerning the Grounds of the Late <hi>Turkiſh</hi> War, which by Many Men, both Learned, and Un<g ref="char:EOLhyphen"/>learned, has been long ſince foretold, ſeveral Men are of ſeveral Opinions: Some impute it to the
+<pb n="2" facs="tcp:151117:10"/>Action of <hi>Ragotzi,</hi> in the Year, 1657. in <hi>Poland;</hi>
+                     <note place="margin">The grounds of the Tur<g ref="char:EOLhyphen"/>kiſh War.</note> being under<g ref="char:EOLhyphen"/>taken without the Conſent of the <hi>Grand Signior:</hi> Others, to other Cauſes; but the Moſt (with my ſelf) look upon it as the heavy Judgment of Heaven drawn down upon us by our multiply'd Tranſ<g ref="char:EOLhyphen"/>greſſions. But it is not My Pur<g ref="char:EOLhyphen"/>poſe to deduce the Cauſes of the Warre, I ſhall only acquaint the Reader with ſome Remarquable Paſſages concerning the Proceed<g ref="char:EOLhyphen"/>ings of This Barbarous Enemy a<g ref="char:EOLhyphen"/>gainſt <hi>Hungary,</hi> and other Coun<g ref="char:EOLhyphen"/>tryes Bordring upon him. To recite the Actions of Prince <hi>Ra<g ref="char:EOLhyphen"/>go<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                           <desc>•</desc>
+                        </gap>zi</hi> in <hi>Poland,</hi> I reckon needle<gap reason="illegible" resp="#KEYERS" extent="2 letters">
+                        <desc>••</desc>
+                     </gap> as being already Breviated in my <hi>Polonian Relations.</hi>
+                  </p>
+                  <p>In the Year 1657. <hi>George Ra<g ref="char:EOLhyphen"/>gotzi,</hi> Prince of <hi>Tranſylvania,</hi> fi<g ref="char:EOLhyphen"/>niſhed his War in <hi>Poland;</hi> and
+<pb n="3" facs="tcp:151117:10"/>with much ado, made his Retreat to his Principality; where he found, too late, the extream mi<g ref="char:EOLhyphen"/>ſery which he had brought upon himſelf. For ſo it was, that the <hi>Grand Signior,</hi> making the worſt Conſtruction of all <hi>Ragotzi</hi>'s Act<g ref="char:EOLhyphen"/>ings in <hi>Poland</hi> (which Kingdome was then in Amity with the <hi>Turk</hi>) reſolved to puniſh This Underta<g ref="char:EOLhyphen"/>king in his <hi>Vaſſal,</hi> as an Aſſront to the State of <hi>Turkey.</hi> Upon the Apprehenſion of which Conſe<g ref="char:EOLhyphen"/>quence, Prince <hi>Ragotzi</hi> put him<g ref="char:EOLhyphen"/>ſelf into a Poſture of Defence, to the utmoſt of his Power. In 1658 he was yet at Quiet;<note place="margin">The <hi>Turk</hi> falls upon <hi>Ragotzi.</hi>
+                     </note> but in 1659 the <hi>Grand Signior</hi> pour'd in a Nu<g ref="char:EOLhyphen"/>merous Army of <hi>Turk<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                           <desc>•</desc>
+                        </gap>
+                     </hi> and <hi>Tartar<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                           <desc>•</desc>
+                        </gap>
+                     </hi> into <hi>Tranſylvania;</hi> who practis'd all the Inſolvencies and Outrages of Burning, Killing, Raviſhing, (and the like) imaginable. This Horrid
+<pb n="4" facs="tcp:151117:11"/>Invaſion of the <hi>Infidels</hi> was vali<g ref="char:EOLhyphen"/>antly oppos'd by <hi>Ragotzi</hi>'s Forces, Skirmiſhing with them at ſeverall times very ſucceſſefully, and ſo long as He liv'd, his Forts were not Attempted. Soon after; the <hi>Grand Signior</hi> (no longer brooking this Audacity in his <hi>Vaſſal</hi>) diſpatch'd an Embaſſadour to the <hi>Emperour</hi> at <hi>Vienna,</hi> with Rich Preſents; Deſi<g ref="char:EOLhyphen"/>ring his <hi>Imperial</hi> Majeſty not to concern himſelf in Prince <hi>Ragot<g ref="char:EOLhyphen"/>zi</hi>'s Affairs, the <hi>Turkiſh</hi> Emperour being reſolv'd to proſecute the ſaid <hi>Rogatzi</hi> to the higheſt point of Ex<g ref="char:EOLhyphen"/>tremity.</p>
+                  <p>In 1660, the <hi>Turk</hi> loſt no times; but ſent a greater Power then be<g ref="char:EOLhyphen"/>fore, into <hi>Tranſylvania.</hi> In the mean whiſe, Prince <hi>Ragotzi</hi> march<g ref="char:EOLhyphen"/>ed with a Conſiderable Force be<g ref="char:EOLhyphen"/>fore <hi>Hermanſtad,</hi> and it come to a Bloody Encounter, wherein <hi>Ra<g ref="char:EOLhyphen"/>gotzi</hi>
+                     <pb n="5" facs="tcp:151117:11"/>deported himſelf valiantly killing 17 men with his own hand;<note place="margin">The <hi>Turk</hi> worſted by <hi>Rogotzi.</hi>
+                     </note> and ſo the <hi>Infidels</hi> for That Bout were forced to quit the Field, and leave the Victory to the <hi>Tranſyl<g ref="char:EOLhyphen"/>vanias,</hi> and 6 or 7000 <hi>Turks</hi> and <hi>Tartars</hi> upon the place. <hi>Ragotzi</hi> in the Perſuit received 5 wounds,<note place="margin">Who dyes of his wounds.</note> and 5 dayes after This Fight (<hi>June</hi> the <hi>6th</hi>) he was brought to <hi>Great-Waradin,</hi> where he departed this Life.</p>
+                  <p>The fall of this Prince ballanc'd the Advantage of the Victory, and exceedingly Animated the <hi>Turks,</hi> who preſſing more and more ea<g ref="char:EOLhyphen"/>gerly upon the <hi>Tranſylvanians,</hi> drove them every where to their ſtrong Holds: Whereupon Ge<g ref="char:EOLhyphen"/>neral <hi>Souches</hi> by Order from <hi>Vi<g ref="char:EOLhyphen"/>enna,</hi> drew toward <hi>Tranſylvania,</hi> to make it good againſt the <hi>Turks;</hi> and forthwith march'd thither with a
+<pb n="6" facs="tcp:151117:12"/>conſiderable Body, and poſſeſs'd himſelf of ſeveral Holds.</p>
+                  <p>
+                     <hi>July</hi> the 14 of the ſame year, the <hi>Turk</hi> with 100000 Men laid cloſe Siege to <hi>Great-Waradin,</hi>
+                     <note place="margin">Great <hi>Wa<g ref="char:EOLhyphen"/>radin</hi> Beſic<g ref="char:EOLhyphen"/>ged.</note> which was ſtoutly defended by one <hi>Marcus Claudius,</hi> a <hi>Scotchman,</hi> the Gover<g ref="char:EOLhyphen"/>nour of the Town. During the Siege, the <hi>Turk</hi> ſent abroad ſtrong Parties to ſubdue ſmaller Towns, forcing the People unto ſeverall works, as the building of Bridges, and the Like, putting them to the Sword at laſt for their Reward: At one time killing 150 <hi>Chriſtians,</hi> and at another, Loading 20 Wagons with <hi>Christians</hi> Heads which they carried away.</p>
+                  <p>On the 6 of <hi>Auguſt,</hi>
+                     <note place="margin">The Gover<g ref="char:EOLhyphen"/>nour killed, and the Place yield<g ref="char:EOLhyphen"/>ed up.</note> that brave Souldier and Governour, <hi>Marcus Claudius</hi> was ſlain by a ſhort, &amp; (the Beſieged being left without any hope of Relief) This ſtrong Place
+<pb n="7" facs="tcp:151117:12"/>was ſurrendred upon the <hi>Turk</hi> upon Accord; being a paſſage into <hi>Tran<g ref="char:EOLhyphen"/>ſylvania, Hungary,</hi> and <hi>Poland.</hi>
+                  </p>
+                  <p>After the death of <hi>Ragotzi,</hi> there ſtarted up One <hi>Barkay,</hi>
+                     <note place="margin">
+                        <hi>Barkay</hi> U<g ref="char:EOLhyphen"/>ſurps upon <hi>Tranſylva<g ref="char:EOLhyphen"/>nia.</hi>
+                     </note> a Creature of the <hi>Turks,</hi> making himſelf Prince of <hi>Tranſylvania,</hi> whom the <hi>Turk</hi> protected and ſupplyed with Forces, whereby he undertook to reduce ſeveral Places, ſiding in pretence with General <hi>Souches</hi> (who wel underſtood this violence of the <hi>Turks,</hi> to be a deſign not only upon <hi>Tranſylvania,</hi> but alſo upon the <hi>Empire</hi> it ſelf) and ma<g ref="char:EOLhyphen"/>king large Profeſſions under hand, that whatſoever he got by the <hi>Tur<g ref="char:EOLhyphen"/>kiſh</hi> Ayd, was meant for the good of the <hi>Emperour,</hi> to whom he ſaid that he Intended a Juſt and an Ho<g ref="char:EOLhyphen"/>nourable Reſtitution, reſerving on<g ref="char:EOLhyphen"/>ly <hi>Waradin</hi> to remain under the Power of the Prince of <hi>Tranſylva<g ref="char:EOLhyphen"/>nia;</hi>
+                     <pb n="8" facs="tcp:151117:13"/>but the matter prov'd other<g ref="char:EOLhyphen"/>wiſe in the end.</p>
+                  <p>Toward the Cloſe of this Year, a <hi>Blazing Star</hi> appear'd with the Tayle toward <hi>Dalmatia,</hi> and the <hi>Head</hi> toward <hi>Tranſylvanta,</hi> which prov'd but a forerunner of the en<g ref="char:EOLhyphen"/>ſuing Calamityes.</p>
+                  <p>Soon after This, the <hi>Laboliziſh</hi> Peaſants Rebell'd againſt the <hi>Chri<g ref="char:EOLhyphen"/>ſtians</hi> in <hi>Tranſylvania,</hi> whom they partly put to the ſword, ſome they took Priſoners, and others they ſold to the <hi>Turk,</hi> The Right ſuc<g ref="char:EOLhyphen"/>ceſſour of <hi>Ragotzi,</hi> was <hi>Kemini Ja<g ref="char:EOLhyphen"/>nos,</hi> (by many <hi>Tranſylvanians,</hi>
+                     <note place="margin">Kemini Ja<g ref="char:EOLhyphen"/>nos <hi>oppoſes</hi> 
+                        <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                           <desc>•</desc>
+                        </gap>ar kay.</note> re<g ref="char:EOLhyphen"/>ceiv'd and entertain'd for ſuch) who was bitterly perſecuted by <hi>Barkay</hi> and the <hi>Turks.</hi>
+                  </p>
+                  <p>
+                     <hi>Anno</hi> 1661 He fought them at <hi>Thaſſabat,</hi> and made a great ſlaughter: But at Laſt, oppreſſed with Numbers, he left <hi>Tranſylva<g ref="char:EOLhyphen"/>nia,</hi>
+                     <pb n="9" facs="tcp:151117:13"/>and retreated to <hi>Tokay.</hi> And now it appear'd that the <hi>Turks</hi> bu<g ref="char:EOLhyphen"/>ſineſs was not to ſtop there, but to fall alſo upon <hi>Hungary.</hi> Where<g ref="char:EOLhyphen"/>upon his <hi>Imperial</hi> Majeſty granted Commiſſions for the raiſing of an Army, which was diſpatch'd, part of it into <hi>Hungary,</hi> and part into <hi>Tranſylvania.</hi> In the <hi>Interim;</hi> Count <hi>Nicholas Serini</hi> began to look to himſelf, and rais'd a ſtrong Fort on the Wall over againſt <hi>Caniſia,</hi> Naming it <hi>Serinſwar:</hi>
+                     <note place="margin">The Build<g ref="char:EOLhyphen"/>ing of <hi>Se<g ref="char:EOLhyphen"/>rinſwar.</hi>
+                     </note> getting to<g ref="char:EOLhyphen"/>gether a ſtrong Body of <hi>Croats,</hi> and other Nations, that lay heavy up<g ref="char:EOLhyphen"/>on the Quarters there about: which the <hi>Turks</hi> ſtomach'd not a little, however they carried it fair at pre<g ref="char:EOLhyphen"/>ſent, and for a while they talk'd of nothing but Peace, but at laſt they brake out into high expreſſions, that they would have <hi>Serinſwar</hi> de<g ref="char:EOLhyphen"/>moliſh'd,<note place="margin">The Pre<g ref="char:EOLhyphen"/>tence of the Quarrel.</note> Count <hi>Serini</hi> puniſh'd,
+<pb n="10" facs="tcp:151117:14"/>and <hi>Tranſylvania</hi> ſubjected to the Power of the <hi>Turk</hi> by way of Re<g ref="char:EOLhyphen"/>paration. None of which follow<g ref="char:EOLhyphen"/>ed; but the <hi>Chriſtians</hi> lookt upon it as every mans Intereſt to do his Beſt to defend himſelf againſt the Ambition, and Outrages of This Common Enemy; and there being nothing now to be expected but a great <hi>Turkiſh</hi> War, which was al<g ref="char:EOLhyphen"/>ready begun by Parties;<note place="margin">The <hi>Chriſti<g ref="char:EOLhyphen"/>ans</hi> enter upon <hi>Turky.</hi>
+                     </note> the <hi>Chri<g ref="char:EOLhyphen"/>ſtians</hi> entred upon the Borders of <hi>Turky,</hi> drawing toward <hi>Stul-Weiſ<g ref="char:EOLhyphen"/>ſenburg,</hi> and <hi>Offen:</hi> and they ſub<g ref="char:EOLhyphen"/>dued <hi>Zamock, Warda, Erzy,</hi> and <hi>Hirt:</hi> all theſe being inconſiderable Houſes, and Caſtles, which with their Defenders were blown up, and fired.</p>
+                  <p>While this was doing, the <hi>Turks</hi> gathered together a Mighty Army Conſiſting of <hi>Aſicatick, African,</hi> and <hi>Europaean</hi> People;<note place="margin">The <hi>Turks</hi> Preparati<g ref="char:EOLhyphen"/>ons.</note> and from this
+<pb n="11" facs="tcp:151117:14"/>
+                     <hi>Acheron</hi> iſſued thoſe Devils in the ſhape of men, that have ſince tor<g ref="char:EOLhyphen"/>mented <hi>Chriſtendom.</hi> To this nu<g ref="char:EOLhyphen"/>merous Army, they had likewiſe provided an incredible proportion of Victuals, Ammunition, and Ar<g ref="char:EOLhyphen"/>tillery. Nevertheleſs, ſeveral Trea<g ref="char:EOLhyphen"/>ties were ſet a foot, which the <hi>Turk</hi> ſo long inſiſted upon, till he had gained his End, and drawn a for<g ref="char:EOLhyphen"/>midable Power into the Field, to break in upon the <hi>Chriſtians,</hi> who laboured as much as in them lay, to preſerve the Peace; but who can live longer at Peace, then his Neighbour will give him leave?</p>
+                  <p>The Army of the <hi>Chriſtians</hi> in <hi>Hungary</hi> Conſiſted of 40000 <hi>Ger<g ref="char:EOLhyphen"/>man</hi> Souldiers, who had the <hi>Turks</hi> for their <hi>Open,</hi> and the <hi>Hungarians</hi> for their <hi>Private</hi> Enemies (the ani<g ref="char:EOLhyphen"/>moſity being ſo great, that many times it came to Blows betwixt the
+<pb n="12" facs="tcp:151117:15"/>
+                     <hi>Germans</hi> and the <hi>Hungarians.</hi>) Theſe many Inconveniences, part<g ref="char:EOLhyphen"/>ly from the <hi>Hungarians,</hi> who deny<g ref="char:EOLhyphen"/>ed Victuals to the <hi>German</hi> Army, and partly from diſeaſes ariſing from the diſagreement of the Cli<g ref="char:EOLhyphen"/>mate, were much weakned, and di<g ref="char:EOLhyphen"/>miniſhed. <hi>Hungary</hi> is queſtionleſs a very brave Country, and abounds in Wine, and certain Fruits, which taken to Exceſſe, breed dangerous Surfeits. The <hi>Hungarians</hi> in their deportment are generally Grave, and Modeſt, but being Affronted by the <hi>Germans,</hi> and others of a dif<g ref="char:EOLhyphen"/>ferent Religion, they are prone to revenge, and hard to be Reconciled.</p>
+                  <p>Toward the Month of <hi>October,</hi> the <hi>Dutch</hi> Army was exceedingly peſter'd with Surfeits, ſo that be<g ref="char:EOLhyphen"/>twixt thoſe that dyed, Many that lay ſick, and others that were carri<g ref="char:EOLhyphen"/>ed
+<pb n="13" facs="tcp:151117:15"/>out of the Country, it fell to a low Ebbe: and moreover, being then as far as <hi>Clauſenburg,</hi> or there<g ref="char:EOLhyphen"/>abouts, they were put to ſome di<g ref="char:EOLhyphen"/>ſtreſs for Victuals and Forage: the Enemy encreaſing daily more and more againſt them, (for in thoſe Parts the <hi>Turkiſh</hi> Power was ſtrongeſt) About this time, the Up<g ref="char:EOLhyphen"/>ſtart Prince <hi>Barkay</hi> fell into diſ<g ref="char:EOLhyphen"/>grace,<note place="margin">
+                        <hi>Barkay</hi> in diſgrace, <hi>Abafiv</hi> pre<g ref="char:EOLhyphen"/>ferr'd.</note> and the <hi>Turk</hi> preferred one <hi>Abafti</hi> to that dignity in his ſtead. Againſt <hi>Him, Kemini Janos</hi> bore up,<note place="margin">Kemini Ja<g ref="char:EOLhyphen"/>nos <hi>makes head.</hi>
+                     </note> Oppoſing him, and his Promoters in the Head of 8000 men, and for tune ſo far befriended him in the firſt Engagement, as to deliver his great Enemy <hi>Barkay</hi> into his hands,<note place="margin">
+                        <hi>Barkay</hi> ta<g ref="char:EOLhyphen"/>ken and Be<g ref="char:EOLhyphen"/>headed.</note> whoſe Head he cauſed to be ſtruck off, and then for a while the people flocked in to him, and Augmented his Army; But at laſt, he met with a Lions Fortune, when being ſur<g ref="char:EOLhyphen"/>rounded
+<pb n="14" facs="tcp:151117:16"/>rounded on all ſides, and ſtriving to clear his paſſage, he ſeemed only carefull how he might fall with Honour: for his Army through ma<g ref="char:EOLhyphen"/>ny Skirmiſhes, Diſeaſes, and great Scarcity of Proviſion, was melted away, and hope of Succour there was none left; the <hi>German</hi> Army by the like Accidents being weak<g ref="char:EOLhyphen"/>ned and put to a Retreat. Upon theſe Terms it was, that he com<g ref="char:EOLhyphen"/>mitted himſelf to places of more ſecurity, and in <hi>Zathmar,</hi> He with Others, expected the Iſſue of the Treaty. But the <hi>Turks,</hi> (as has been ſaid already) making uſe of a Trea<g ref="char:EOLhyphen"/>ty only for their own Advantage, put themſelves into a ſtronger Po<g ref="char:EOLhyphen"/>ſture: In the mean time diſchar<g ref="char:EOLhyphen"/>ging their Choler with great indig<g ref="char:EOLhyphen"/>nation, one while againſt the Va<g ref="char:EOLhyphen"/>liant <hi>Venetians</hi> (that have held them tack ſo long in <hi>Candia</hi>) by
+<pb n="15" facs="tcp:151117:16"/>and by againſt the divided <hi>Poloni<g ref="char:EOLhyphen"/>ans;</hi> and now and then againſt the half-Conquered <hi>Tranſylvanians;</hi> but not a word all this while, nor ſo much as a look of diſpleaſure a<g ref="char:EOLhyphen"/>gainſt <hi>Hungary.</hi> This <hi>Fox-play</hi> of the Treaty lafted till the Year,<note place="margin">The Warre breaks out in 1663.</note>1663, and then the-Fury of theſe <hi>Infidels</hi> brake out, not only upon <hi>Tranſylvania,</hi> and <hi>Hungaria;</hi> but upon the <hi>Emperours</hi> Hereditary Countries alſo; yea, and upon the <hi>Roman Empire</hi> it ſelf.</p>
+                  <p>This ſhall ſerve for an Introdu<g ref="char:EOLhyphen"/>ction to the following <hi>Narrative.</hi> What further occurr'd betwixt theſe two Parties, is expos'd and publiſh'd at large, both at <hi>Franck<g ref="char:EOLhyphen"/>fort,</hi> and elſewhere: ſo that I ſhall only take notice of ſuch Paſſages as happen'd ſince <hi>July</hi> 1663. con<g ref="char:EOLhyphen"/>cerning the <hi>Turks</hi> Proceedings in <hi>Hungary,</hi> and upon the Borders, and
+<pb n="16" facs="tcp:151117:17"/>what Oppoſition thoſe <hi>Infidels</hi> have met with from the <hi>Chriſtians.</hi>
+                  </p>
+                  <p>UPon <hi>July</hi> the 17, 1663. the <hi>Grand Vizier</hi> came in great Pomp and Magnificence to <hi>Offen,</hi>
+                     <note place="margin">The <hi>Grand Vizier</hi> comes with 100000 men to <hi>Of<g ref="char:EOLhyphen"/>fen.</hi>
+                     </note> encamping himſelf in the <hi>Peſterfield,</hi> being 4. <hi>German</hi> miles in Compaſs. His Army was upward of a hun<g ref="char:EOLhyphen"/>dred thouſand men, above one hun<g ref="char:EOLhyphen"/>dred great Guns, and of Wagons, &amp; Beaſts, a number not to be belie<g ref="char:EOLhyphen"/>ved. His firſt work was to lay two <hi>Ship-Bridges</hi> over the <hi>Danube;</hi> the one near to <hi>Gran</hi> and the other not far from <hi>Parkam.</hi> His Forces being quarter'd about thoſe parts in Pro<g ref="char:EOLhyphen"/>digious Multitudes, it was as yet doubtfull, whether he would fall upon <hi>Newhauſel,</hi> or <hi>Raab;</hi> having his eye indifferently upon both, and lying ſtill for a good while without Action. But this Blood-Thirſty
+<pb n="17" facs="tcp:151117:17"/>brute had ſhew'd himſelf much ſooner, if a continual fall of Rain, and the Overflow of the <hi>Da<g ref="char:EOLhyphen"/>nube</hi> had not hindred him: How<g ref="char:EOLhyphen"/>ever at length,<note place="margin">The <hi>Turks</hi> paſſe the River to<g ref="char:EOLhyphen"/>ward <hi>New<g ref="char:EOLhyphen"/>hauſel.</hi>
+                     </note> he paſs'd ſome thou<g ref="char:EOLhyphen"/>ſands of his Army over the Bridge near <hi>Parkam</hi> toward the ſide of <hi>Newhauſel;</hi> when immediately a Report was ſpread by ſome of the Peſants that were turn'd to the <hi>Turk,</hi> that the River had torn their <hi>Ship-Bridges,</hi> and that thoſe 4000 <hi>Turks</hi> that had paſſed over, were now Cut off from the Main-Body.</p>
+                  <p>This Rumour it was, that in vei<g ref="char:EOLhyphen"/>gled the Governour of <hi>Newhauſel</hi> (Count <hi>Forgats</hi>) into a Couragious but an unhappy Refolution, which was, to fall upon thoſe 4000 <hi>Turks,</hi> upon the ſuppoſition, that the Miſcarriage of the Bridge had cut off their Retreat. It is very true, that he was earneſtly diſſuaded
+<pb n="18" facs="tcp:151117:18"/>from that Attempt, and told, that the Body was greater then he ima<g ref="char:EOLhyphen"/>gined, but ſtill perſiſting in his Re<g ref="char:EOLhyphen"/>ſolve to fight them, upon the <hi>28th</hi> of <hi>July,</hi> with his <hi>Hungarians, Huſ<g ref="char:EOLhyphen"/>ſars</hi> and <hi>Heydukes,</hi> and 11 Troups of <hi>Germans,</hi> and 500 Muſquetters (in all 6000 ſtrong) he marched up to them, and finding the Enemy four times more then he expected, became ſenſible of the Abuſe, al<g ref="char:EOLhyphen"/>though alaſs! too late: for the <hi>In<g ref="char:EOLhyphen"/>fidels</hi> having gotten certain Intelli<g ref="char:EOLhyphen"/>gence of the <hi>Chriſtians</hi> deſign, and of their coming, cauſed the Bridges preſently to be Repayred, which they had purpoſely diſordered, and marching over with a ſtrong Power ſurrounded them. The <hi>Hungarians,</hi> and <hi>Huſſars,</hi> that were appointed to ſtand, for a Reſerve, ſeeing the Enemy come on ſo ſtrong, betook themſelves to flight;
+<pb n="19" facs="tcp:151117:18"/>but the <hi>Germans,</hi> and <hi>Heyducks</hi> that gave the Onſet behaved themſelves ſtoutly, and ſold a Dear Victory to the <hi>Turks.</hi>
+                     <note place="margin">Count <hi>gats</hi> def<g ref="char:EOLhyphen"/>
+                        <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                           <desc>•</desc>
+                        </gap>ed.</note> At laſt by Multitudes they were overcome, and thoſe that could not get away, were mi<g ref="char:EOLhyphen"/>ſerably Cut, and Mangled, <hi>Forgats,</hi> and ſome few others eſcaped to <hi>Newhauſel.</hi> This Combat laſted 3 hours, and about 3000 of the <hi>Germans,</hi> and <hi>Heyducks</hi> were put to the Sword.</p>
+                  <p>After this Victory, the <hi>Turks</hi> be<g ref="char:EOLhyphen"/>ing therewith encouraged, and the <hi>Chriſtians</hi> not a little dejected, the Enemy made ready to lay a formal Siege unto <hi>Newhauſel,</hi>
+                     <note place="margin">The <gap reason="illegible" resp="#KEYERS" extent="1 span">
+                           <desc>〈…〉</desc>
+                        </gap> lay Sie<gap reason="illegible" resp="#KEYERS" extent="3 letters">
+                           <desc>•••</desc>
+                        </gap> 
+                        <hi>Newhauſel.</hi>
+                     </note> with what Succeſs will be ſeen in this enſuing Relation.</p>
+                  <div type="part">
+                     <pb n="20" facs="tcp:151117:19"/>
+                     <head>A Narrative of the Moſt Re<g ref="char:EOLhyphen"/>marquable Occurrences at the Siege of <hi>Newhauſel.</hi>
+                     </head>
+                     <p>ON the <hi>15th</hi> of <hi>Auguſt,</hi> a Trou<g ref="char:EOLhyphen"/>per of the <hi>Walteriſh</hi> Regi<g ref="char:EOLhyphen"/>ment, who in an Encounter had been taken Priſoner hard by <hi>Par<g ref="char:EOLhyphen"/>kam,</hi> came to <hi>Newhauſel,</hi> and Affir<g ref="char:EOLhyphen"/>med that the <hi>Grand Vizier,</hi> in his Preſence, cauſed all the Priſoners to be put to the Sword, whereup<g ref="char:EOLhyphen"/>on 40 of the Turkiſh Priſoners in <hi>Newhauſel</hi> were behead in re<g ref="char:EOLhyphen"/>quital.</p>
+                     <p>On the <hi>16th.</hi> dito, the Enemy ſome Guns into the <hi>Turks</hi> Campe,
+<pb n="21" facs="tcp:151117:19"/>that did Execution among them. Toward the Evening, the <hi>Grand Vizier</hi> ſummon'd the Town, giving them three dayes to conſider of a Surrender; but being Anſwered Negatively, the Enemy began to play upon the Fort.</p>
+                     <p>On the <hi>18th.</hi> the Turk, with a great Shout, and a Peal of Cannon, Approach'd the <hi>Vienna Gate</hi> Poſted themſelves there, and preſently fell to digging, Notwithſtanding the continual ſhot made upon them; and over againſt <hi>Forgats</hi> Bulwork, they raiſed a Battery from beneath.</p>
+                     <p>On the <hi>19th.</hi> the <hi>Turks</hi> play'd their great Guns, and continued till the 23, making every day at leaſt 350. great Shot againſt the Wall, the Balls weighing 65, 48, 35, and 22. pound.</p>
+                     <p>On the <hi>21th.</hi> the Beſieged made a Sally, putting ſome of the <hi>Turks</hi>
+                        <pb n="22" facs="tcp:151117:20"/>to the Sword, and took one Enſign from them, whereupon the <hi>Turks</hi> in their Poſt at the <hi>Vienna-Gate,</hi> poſſeſs'd themſelves of a <hi>Roundel,</hi> in which Action, many were ſlain on both ſides.</p>
+                     <p>On the <hi>25th.</hi> the <hi>Turks</hi> began to Batter the <hi>Vienna-Gate.</hi>
+                     </p>
+                     <p>On the <hi>27th.</hi> there came one <hi>Turk</hi> into the Mote, who was taken Priſoner, and confeſs'd that he was ſent to Scout, for which he was immediately knock'd on the head.</p>
+                     <p>On the <hi>29th.</hi> the <hi>Turkiſh</hi> Horſe retired from the Fort, and drew near unto the <hi>Iſland Schutt,</hi> at which time they fir'd twelve Guns.</p>
+                     <p>On the <hi>31th.</hi> the Enemy At<g ref="char:EOLhyphen"/>tempted the <hi>Palliſado</hi>'s, and began alſo to fill up the Mote; and on this day, Lievetenant Colonel <hi>Mortiniſa Lamberg</hi> received a Shot, of which he dyed the day follow<g ref="char:EOLhyphen"/>ing.</p>
+                     <pb n="23" facs="tcp:151117:20"/>
+                     <p>
+                        <hi>September</hi> the Firſt, at night the Beſieged, vowed to ſtand to it with their Officers to the laſt drop of their Blood.</p>
+                     <p>On the <hi>2d dito,</hi> a great Number of <hi>Janiſaries</hi> came into the Mote, againſt whom many ſhot were made, at which time it was ſuppo<g ref="char:EOLhyphen"/>ſed that the Enemy would give an Aſſault.</p>
+                     <p>On the <hi>3d,</hi> two Corporals were condemned to dye for deſerting their Poſt.</p>
+                     <p>On the <hi>5th</hi> 140 Auxiliaries came in from <hi>Comorra,</hi> and Lievetenant Colonel <hi>Hagen,</hi> was touched light<g ref="char:EOLhyphen"/>ly with a ball of two pound eight, and upon the ſame day the <hi>Turks</hi> forced out of the Ground ſome of the Palliſado's hard by the Fort, at which work, many of them were ſlain.</p>
+                     <p>On the <hi>6th,</hi> the <hi>Turks</hi> Approach<g ref="char:EOLhyphen"/>ed
+<pb n="24" facs="tcp:151117:21"/>in digging, to the middle of the <hi>Town-Mote.</hi>
+                     </p>
+                     <p>On the 7th it rained, ſo that they could not work.</p>
+                     <p>On the 9th, Nine of the Defen<g ref="char:EOLhyphen"/>dents were killed by ſhot, and our of the <hi>Turks</hi> were ſlain by one <hi>Chriſtian.</hi>
+                     </p>
+                     <p>On the 10th, and Officer was Con<g ref="char:EOLhyphen"/>demned to dye for leaving his Poſt, and giving way to the Enemy.</p>
+                     <p>On the 11th, the <hi>Turks</hi> brake down the <hi>Vienna. Gate</hi> Bridge, which was repaired, and drawn up the next night; Many ſhot were this day made, and great Execu<g ref="char:EOLhyphen"/>tion done upon the Enemy.</p>
+                     <p>On the 13th they played ſtrong<g ref="char:EOLhyphen"/>ly with their great Guns, both up<g ref="char:EOLhyphen"/>on the Wall, and into the City, but without much Harm.</p>
+                     <p>On the 15th the <hi>Turks</hi> made a ſhot juſt into the mouth of a great
+<pb n="25" facs="tcp:151117:21"/>Gun in <hi>Newhauſel,</hi> which made the Gun fly, and killed one man hard by it. In the Afternoon, 5 of the <hi>Turks</hi> that intended to paſſe the Mote, gave an Alarme, at which time the Lievetenant Colonel of the <hi>Walteriſh</hi> Regiment was killed with a Shot.</p>
+                     <p>On the 17th, the Marquis of <hi>Grana</hi> was hurt with a Bullet be<g ref="char:EOLhyphen"/>low the knee; but the Grand <hi>Cap<g ref="char:EOLhyphen"/>tain</hi> was wounded in the Head, whereof he dyed; alſo between eleven and twelve of the Clock, the Enemy made an Aſſault in two places, which laſted till two, with great loſſe on both ſides. At the Evening, the Beſieged flung light<g ref="char:EOLhyphen"/>ed <hi>Pitch-Barrels</hi> among the Enemy, which drove them out of <hi>Frederick Sconce;</hi> but at the going out of the Lights, the <hi>Turks</hi> preſſed in again with two foot Companyes.</p>
+                     <pb n="26" facs="tcp:151117:22"/>
+                     <p>On the 18th, the <hi>Turks</hi> were working of a Mine, but the Beſie<g ref="char:EOLhyphen"/>ged in their Counter-mining drove them back; However by this means, they made a Breach in the wall ſufficient for a Paſſage; at which time, the Beſieged ſtood but one pace from the Enemy, whom they forc'd to retreat with kindled Pitch-Barrells.</p>
+                     <p>On the 20th, the <hi>Turks</hi> climb'd over the <hi>Palliſado</hi>'s and began to undermine <hi>Forgats-Sconce:</hi> and about four in the after-noon they Attaqued <hi>Frederick-Scone,</hi> and planted ſeventeen of their En<g ref="char:EOLhyphen"/>ſignes upon it; but were beaten off ſucceſsfully, they likewiſe made an Aſſault upon <hi>Forgats-Sconce</hi> to their great loſſe.</p>
+                     <p>On the 21th, they came on by night in great ſilence, and made another Aſſault; at which time an
+<pb n="27" facs="tcp:151117:22"/>Eminent <hi>Baſſa</hi> was ſlain, and two Captains of the Beſieged; and on both ſides many Souldiers loſt.</p>
+                     <p>On the 22th, they made an<g ref="char:EOLhyphen"/>other furious aſſault, but they were repulſed with loſſe, and kept off with flinging of kindled <hi>Pitch-Barrels</hi> among them: yet they came on again, but to no purpoſe. At this Bout, the Beſieged loſt a<g ref="char:EOLhyphen"/>bove forty men, amongſt whom were two Lievetenant Colonells, on whereof was a <hi>Spaniard,</hi> the other was <hi>Hagen:</hi> On this day, Marquis <hi>Pio</hi> was wounded in his Head with an Arrow, and in his Neck he received another wound, Marquis <hi>de Grana</hi> was wounded alſo on the Head.</p>
+                     <p>On the 23th, the Enemy Batter<g ref="char:EOLhyphen"/>ed 2o furiouſly, that <hi>Frederick,</hi> and <hi>Serin-Sconces</hi> were beaten to the Ground, and a Breach made Large
+<pb n="28" facs="tcp:151117:23"/>enough for three Horſe-men to have paſſed a Breſt. This whole night they ſhot, without Intermiſ<g ref="char:EOLhyphen"/>ſion, and with Incredible Labour and Delving, they raiſed a Mount of Earth ſo high, that from thence, they could Command the Town, and beat the Beſieged from the Walls.</p>
+                     <p>Wherejpon the <hi>Hungarians</hi> whiſpered one another, to <hi>Surren<g ref="char:EOLhyphen"/>der,</hi> (out of a fear to diſpute it any longer) which moved the <hi>Germans</hi> likewiſe to ſpeak of an <hi>Accord,</hi> to <hi>Marquis Pio,</hi> who telling them that the Enemy kept no <hi>Accord;</hi> one of the Souldiers replyed, that <hi>he did;</hi> and thereupon, the <hi>Marquis</hi> ran him through, and kill'd him: How<g ref="char:EOLhyphen"/>ever, preſently after, they ſent to the <hi>Grand Vizier,</hi> demanding Ho<g ref="char:EOLhyphen"/>norable Conditions, whoſe An<g ref="char:EOLhyphen"/>ſwer was, that they ſhould ſet
+<pb n="29" facs="tcp:151117:23"/>down their own Terms, leaving only their <hi>Creat Guns</hi> in the <hi>Fort.</hi>
+                     </p>
+                     <p>On the 25th, the <hi>Turks</hi> were ad<g ref="char:EOLhyphen"/>mitted to the <hi>Gran-Gate.</hi>
+                     </p>
+                     <p>On the 26th, they ſtay'd there till twelve at Noon, and then the <hi>Christians</hi> marched out, with 2422 ſound, and Armed men, many ſick <hi>Germans,</hi> four Piece of Ordnance with Baggage, for which the <hi>Turks</hi> allowed Horſes, and Waggons, and Conducted the Garriſon to <hi>Comorra.</hi> The <hi>Tartars,</hi> and ſome of the <hi>Turks</hi> fell to plundering of ſeveral Houſes in <hi>Newhauſel,</hi> and ſome of the Waggons of thoſe that marched out; but a <hi>Baſſa</hi> ſtaid their hands, and kept them in or<g ref="char:EOLhyphen"/>der by force. At this Surrender, the Enemy got ſeventy piece of Ordnance; great ſtore of Armes, Powder, Wine, Meal, and Corn; Many of the <hi>Hungarians</hi> tarrying in <hi>Newhauſel</hi> with the <hi>Turks.</hi>
+                     </p>
+                  </div>
+                  <div type="part">
+                     <pb n="30" facs="tcp:151117:24"/>
+                     <p>THis Siege drew in many of the <hi>Tartars, Moldavians,</hi> and <hi>Wal<g ref="char:EOLhyphen"/>lachians,</hi> taking their March through <hi>Tranſylvania</hi> (where they began their Horrid Cruelty upon the <hi>Chriſtians</hi>) toward the Camp before <hi>Newhauſel.</hi> From Thence, <hi>September,</hi>
+                        <note place="margin">The <hi>Infi<g ref="char:EOLhyphen"/>dels</hi> paſſe the <hi>Waegh,</hi> and break into <hi>Mo<g ref="char:EOLhyphen"/>ravia.</hi>
+                        </note> the 3d. (being encrea<g ref="char:EOLhyphen"/>ſed to the Number of 20. or 30000 by the Addition of may <hi>Turks</hi>) they ſought to make their way o<g ref="char:EOLhyphen"/>ver the <hi>Waegh,</hi> which at laſt, they carried by force, putting thoſe <hi>Chriſtians</hi> to the Sword that guard<g ref="char:EOLhyphen"/>ed the Paſſe, and ſo Croſſing the Mountains, they Entred into <hi>Mo<g ref="char:EOLhyphen"/>ravia,</hi> to <hi>
+                           <g ref="char:V">Ʋ</g>ngriſhbrod, Holliſhau,</hi> and the parts about <hi>Olmitz,</hi> which Towns, together with a great num<g ref="char:EOLhyphen"/>ber of the Neighbouring Villages, they burnt to the Ground.</p>
+                     <pb n="31" facs="tcp:151117:24"/>
+                     <p>
+                        <hi>Many</hi> Chriſtians <hi>they put to the Sword;</hi>
+                        <note place="margin">The <hi>Turks</hi> Barbarous Cruelties.</note> 
+                        <hi>Women, and Maids, theſe Bruits Raviſhed: the ſtrong men they tyed in Couples, and drove them along. Little Children they put in<g ref="char:EOLhyphen"/>to Sacks life</hi> Geeſe; <hi>ſome they cut in two, and others they daſh'd againſt the Stones.</hi>
+                     </p>
+                     <p>Let the Sun Bluſh, and the Rocks Weep at ſuch Cruelty, and let the Earth open her Mouth and ſwallow up theſe Execrable Mur<g ref="char:EOLhyphen"/>derers! The Number of the Slain, and Captiv'd <hi>Chriſtians,</hi> is reckon<g ref="char:EOLhyphen"/>ed to be above ten Thouſand. Theſe <hi>Barbarians,</hi> although Stran<g ref="char:EOLhyphen"/>gers to the Paſſes, and wayes of theſe Parts, wanted yet no Guides: but furniſh'd themſelves with Lea<g ref="char:EOLhyphen"/>ders from among the <hi>Boores</hi> of the Country, whom they admitted likewiſe to their ſhares of the Booty: and in particular, they
+<pb n="32" facs="tcp:151117:25"/>made uſe of the Treacherous Pea<g ref="char:EOLhyphen"/>ſants of <hi>Werbouitz,</hi> little <hi>VVerbte,</hi> and <hi>Rutzelau,</hi> to Conduct them o<g ref="char:EOLhyphen"/>ver the Mountains: Whither the People about <hi>Straſwitz</hi> fled for Sanctuary; but were fetch'd from thence with 120 Wagons, and carried into Captivity. The Count of <hi>Opperſdorff,</hi> Upper Governour of <hi>Brunner Crayſes</hi> Eſcap'd narrow<g ref="char:EOLhyphen"/>ly to <hi>Brin,</hi> ſo ſodain, and unex<g ref="char:EOLhyphen"/>pected was this Invaſion.</p>
+                     <p>on <hi>September,</hi>
+                        <note place="margin">The Enemy paſs'd the <hi>Mark.</hi>
+                        </note> 5th. The Enemy paſs'd the River <hi>Mark,</hi> and diſ<g ref="char:EOLhyphen"/>pers'd themſelves withou Oppo<g ref="char:EOLhyphen"/>ſition; but the ſtrong Towns they declined, being ill Arm'd, and bet<g ref="char:EOLhyphen"/>ter fitted for a Pillage than a Com<g ref="char:EOLhyphen"/>bat. Upon This day they took the Prince of <hi>Dietrichſtin</hi>'s Secre<g ref="char:EOLhyphen"/>tary, together with his Lady, One Child, and his Wives Siſter, One <hi>Canonico,</hi> and others, as they were
+<pb n="33" facs="tcp:151117:25"/>upon their flight from <hi>Nicolasburg</hi> to <hi>Bohaun.</hi> (Situate among the Mountains) Theſe being overta<g ref="char:EOLhyphen"/>ken, the <hi>Canonico,</hi> with his Ser<g ref="char:EOLhyphen"/>vant were put to the Sword; the Secretary made a ſtrange Eſcape through a water; But the Lady, her Child, and her Siſter, they kept in their hands, with whom they danc'd at Night after their Barbarous rude manner at <hi>Popitz;</hi> till at laſt (according to the Report of Eye-Witneſſes) Sated with <hi>Luſt,</hi> and <hi>Moravian Wine,</hi> they lay<g ref="char:EOLhyphen"/>ed themſelves to ſleep; in ſuch ſe<g ref="char:EOLhyphen"/>curity, as plainly ſignified the In<g ref="char:EOLhyphen"/>telligence they had, that there were none near to revenge the Fact. While they ſlept, the <hi>Siſter</hi> made her eſcape; but the Lady her ſelf, with quieting her Child, waked the Dancers, who preſently daſh'd out the Childes Brains
+<pb n="34" facs="tcp:151117:26"/>againſt the Wall. My Hand trembles at the writing of it! Oh! How many <hi>Chriſtians</hi> are there that make this Horrid ſtory their Sport, as if it were but a Fiction: as if the thing could not be done at all, becauſe they were not at the doing of it. But I proceed,</p>
+                     <p>At <hi>Auſpitz</hi> there came Gallop<g ref="char:EOLhyphen"/>ping ſix Troupers, habited after the <hi>German</hi> Faſhion; and in bro<g ref="char:EOLhyphen"/>ken Language, called for a Dinner in an Inn, and Provender for their Horſes, telling the People they would pay for it. Being demand<g ref="char:EOLhyphen"/>ed, whence they came? They Anſwered, that they were purſued upon the way; To which the <hi>Inn-keeper</hi> replyed, (as one well pleaſed with the Accompt) that if the Maſters of the Town knew it, that were then met at the <hi>Councel-Houſe,</hi> they would bid him wel<g ref="char:EOLhyphen"/>come
+<pb n="35" facs="tcp:151117:26"/>for his News. But before the tydings could be carryed thi<g ref="char:EOLhyphen"/>ther, there followed into the Town a great Body of <hi>Tartars</hi> after theſe ſcouting Troupers, who put thoſe that were then Aſſembled in Councel, to the Sword, with many others; plunder'd the Town,<note place="margin">
+                           <hi>Auſpitz</hi> plunder'd and burnt</note> and afterward burnt it to the Ground; but the Youths, and Children were moſt of them car<g ref="char:EOLhyphen"/>ried away for Slaves. Some of theſe Treacherous Scouts were af<g ref="char:EOLhyphen"/>ter ward brought Priſoners to <hi>Ol<g ref="char:EOLhyphen"/>mitz,</hi> and ſuffer'd Condigne Pu<g ref="char:EOLhyphen"/>niſhment.</p>
+                     <p>For Ten dayes This Havock laſted in <hi>Moravia,</hi> and then they paſs'd over the <hi>Mark-stream</hi> into <hi>Austria</hi> (at which time, the Coun<g ref="char:EOLhyphen"/>try People with their beſt move<g ref="char:EOLhyphen"/>ables were fled to <hi>Vienna.)</hi> At length, having laden themſelves
+<pb n="36" facs="tcp:151117:27"/>with all manner of Booty, they return'd to the Camp at <hi>Newhauſel,</hi> where they expoſed the Men, and Beaſts, which they had taken up in ſeveral Places, to Common ſale in the Market: While theſe things were doing, the <hi>Turks</hi> bu<g ref="char:EOLhyphen"/>ſied themſelves againſt the Fort <hi>Serinſwar,</hi> and by way of <hi>Strata<g ref="char:EOLhyphen"/>gem,</hi> attempted <hi>Clauſenburg</hi> in <hi>Tranſylvania;</hi> but at both Places, they were repuls'd, with loſſe and ſhame.<note place="margin">
+                           <gap reason="illegible" resp="#KEYERS" extent="2 letters">
+                              <desc>••</desc>
+                           </gap>unt <hi>Seri<g ref="char:EOLhyphen"/>
+                              <gap reason="illegible" resp="#KEYERS" extent="2 letters">
+                                 <desc>••</desc>
+                              </gap>
+                           </hi> breaks in<g ref="char:EOLhyphen"/>
+                           <gap reason="illegible" resp="#KEYERS" extent="2 letters">
+                              <desc>••</desc>
+                           </gap> the <hi>Turks</hi> 
+                           <gap reason="illegible" resp="#KEYERS" extent="2 letters">
+                              <desc>••</desc>
+                           </gap>uarters.</note> At which time Count <hi>Se<g ref="char:EOLhyphen"/>rini,</hi> with a Conſiderable Body of <hi>Croattans,</hi> and other Neighbou<g ref="char:EOLhyphen"/>ring People; made a ſudden In<g ref="char:EOLhyphen"/>curſion into <hi>Turky,</hi> to the great dammage of the <hi>Infidels.</hi> The Garriſon of <hi>Comorra</hi> made diverſe Sallyes upon the Enemies Camp before <hi>Newhauſel,</hi> and ſpoil'd their Forage, which put the <hi>Turks</hi> upon a Neceſſity of fetching it at a great
+<pb n="37" facs="tcp:151117:27"/>diſtance: wihch they might well do, for they had with them 26000 Camels; beſides Horſes, Buffles, Mules, <hi>&amp;c.</hi> not to be numbred.</p>
+                     <p>General <hi>Spork</hi> made diverſe At<g ref="char:EOLhyphen"/>tempts in Parties, upon the Enemy, but moſt commonly they were too ſtrong for him, which coſt him ma<g ref="char:EOLhyphen"/>ny a brave Souldier. General <hi>Souches</hi> likewiſe, did all that was poſſible to way-lay the Enemy, and defend the Paſſages: Principally, Thoſe that led into <hi>Moravta;</hi> but the <hi>Infidels</hi> marching alwayes in greater Numbers, then was re<g ref="char:EOLhyphen"/>ported, were too hard for him alſo.</p>
+                     <p>The <hi>Hungarians</hi> were often de<g ref="char:EOLhyphen"/>ſired to put themſelves into a Body againſt This <hi>Common Enemy;</hi> but it ſeems they had no mind to it, till at laſt, after great Importunity,<note place="margin">Count <hi>N<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                                 <desc>•</desc>
+                              </gap>
+                              <g ref="char:EOLhyphen"/>cholas <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                                 <desc>•</desc>
+                              </gap>er<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                                 <desc>•</desc>
+                              </gap>
+                              <g ref="char:EOLhyphen"/>ni</hi> made Ge<g ref="char:EOLhyphen"/>nerall.</note> Count <hi>Nicholas Serina</hi> undertook the <hi>Generalſhip;</hi> and was by Prince
+<pb n="38" facs="tcp:151117:28"/>
+                        <hi>Genzaga</hi> preſented <hi>General</hi> upon <hi>September</hi> 13. at the Head of the Army near <hi>presburg.</hi> At which time, he drew toget her his <hi>Croats,</hi> and there joyning with the <hi>German</hi> Forces, under the Command of <hi>Monteeuculi,</hi> they put themſelves in a Poſture againſt the <hi>Turks,</hi> but too late; For the Enemy before they were ready, was Maſter of <hi>Newhauſel.</hi> Some <hi>Auxiliary</hi> Forces were drawn up alſo from the <hi>Em<g ref="char:EOLhyphen"/>prie,</hi> and took up their Quarters at <hi>Crembs,</hi> for Reſt, and Refreſhment.</p>
+                     <p>While the <hi>Grand Vizier</hi> was re<g ref="char:EOLhyphen"/>peiring <hi>Newhauſel,</hi> (where the Groſſe of his Army continued for ſometime) the <hi>Tartars</hi> were order<g ref="char:EOLhyphen"/>ed upon Excurſions into <hi>Moravia,</hi>
+                        <note place="margin">Second <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                              <desc>•</desc>
+                           </gap>turſion <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                              <desc>•</desc>
+                           </gap>o <hi>Mora<g ref="char:EOLhyphen"/>
+                              <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                                 <desc>•</desc>
+                              </gap>.</hi>
+                        </note> and forcing through the Paſſages at <hi>Selin</hi> and <hi>Roſingkau;</hi> they de<g ref="char:EOLhyphen"/>ſtroy'd the People thereabouts, and came to <hi>W<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                              <desc>•</desc>
+                           </gap>ettin,</hi> in the way to <hi>Si<g ref="char:EOLhyphen"/>leſia.</hi>
+                        <pb n="39" facs="tcp:151117:28"/>
+                        <hi>Wzettin</hi> they burnt down, and <hi>Globau,</hi> and other Places adja<g ref="char:EOLhyphen"/>cent; Partly Killing, and partly carrying People away into Capti<g ref="char:EOLhyphen"/>vity. Both Invaſions were Barba<g ref="char:EOLhyphen"/>rous and Bloudy; but having ſtaid ſome few dayes there, they went their way. Their Aim was like<g ref="char:EOLhyphen"/>wiſe to have broken through into <hi>Sileſia,</hi> by the Paſſe <hi>Jablunca;</hi> but the <hi>Sileſians</hi> kept themſelves upon too good a Guard for that Bout, and have never been troubled with them ſince.</p>
+                     <p>In all This Action the <hi>Grand Vi<g ref="char:EOLhyphen"/>zier</hi> has play'd both the <hi>Fox,</hi> and the <hi>Lion,</hi> mingling <hi>Fair words,</hi> and <hi>Threatnings;</hi> and Publiſhing ſtill before the Blow, ſuch promi<g ref="char:EOLhyphen"/>ſes of <hi>Liberty,</hi> and <hi>Immunity</hi> to all that would range themſelves under his protection, as he well
+<pb n="40" facs="tcp:151117:29"/>knew moſt likely to work upon the People, he had to deal with. It is true, that theſe Overtures of Cle<g ref="char:EOLhyphen"/>mency, from ſo barbarous an Ene<g ref="char:EOLhyphen"/>my, were look'd upon by the wiſer ſort, rather as a trick of <hi>State,</hi> then <hi>Good-faith;</hi> yet with the Genera<g ref="char:EOLhyphen"/>lity, This way of dealing took effect.</p>
+                     <p>The Place moſt in the <hi>Turks</hi> eye was <hi>Presburg;</hi>
+                        <note place="margin">The <hi>Turks</hi> eye upon <hi>Presburg;</hi>
+                        </note> being the Chief City of the <hi>Nether Hungary:</hi> (wherein is laid up the <hi>Hungarian</hi> Crown) A Place, conſiderable both for the <hi>Goodlineſſe</hi> of the Town, and for the <hi>Scituation</hi> of it; to which ad<g ref="char:EOLhyphen"/>vantage the <hi>Turk</hi> was no Stranger, as appears by the frequent <hi>Alarms,</hi> he gave to that City, the gaining whereof, would have opned him away to <hi>Vienna,</hi> on the One ſide, and to <hi>Raah, Comorra,</hi> and <hi>Newhau<g ref="char:EOLhyphen"/>ſel,</hi> on the Other: The <hi>Danube</hi> paſ<g ref="char:EOLhyphen"/>ſing
+<pb n="41" facs="tcp:151117:29"/>ſing by, in Two Branches, to the Iſland <hi>Schut,</hi> at the end whereof ſtands the Fort <hi>Comorra;</hi> and <hi>Raah</hi> not far off. Nor was it unknown to <hi>Count Strozzi,</hi> (the Governour of <hi>Presburg</hi>) how much the ſafety of the <hi>Whole,</hi> Depended upon the Security of This <hi>Part,</hi> which mo<g ref="char:EOLhyphen"/>ved him to make timely proviſion, for the Defence thereof. But the neighbouring Places, that lay open, as <hi>St. George, Poſing, Modern, &amp;c.</hi> choſe rather to ſubmit, then ex<g ref="char:EOLhyphen"/>poſe themſelves to the extremities of Fire and Sword,<note place="margin">
+                           <hi>Neutra</hi> Ren dred.</note> by an unprofi<g ref="char:EOLhyphen"/>table Oppoſition. <hi>Neutra</hi> indeed (a Place not far from <hi>Newhauſel,</hi> nor leſs defenſible) might have re<g ref="char:EOLhyphen"/>ſiſted, but did not, and upon the Redition, the Garriſon, according to agreement, was conducted to <hi>Presburg. Tyrnaw,</hi> and other Towns yielded alſo.</p>
+                     <pb n="42" facs="tcp:151117:30"/>
+                     <p>The Enemies next Attempt was upon <hi>Schinta,</hi>
+                        <note place="margin">The Enemy Attempts <hi>Schinta,</hi> and is beaten off</note> wherein was lodg'd a fair Artillery, but the Gover<g ref="char:EOLhyphen"/>nour deported himſelf valiantly, and beat them off. By this time, <hi>October</hi> was half over, and the ſea<g ref="char:EOLhyphen"/>ſon, call'd the <hi>Turk</hi> to his <hi>Winter-Quarters:</hi> who finding his time loſt upon <hi>Schinta,</hi> drew off to <hi>New<g ref="char:EOLhyphen"/>hauſel;</hi> which place is now repair<g ref="char:EOLhyphen"/>ed, and ſtrongly Garriſon'd, the River <hi>neutra</hi> being brought round about it. From Thence, the <hi>Turk</hi> took his March, with a Conſidera<g ref="char:EOLhyphen"/>ble Body, to the <hi>Ship-Bridge</hi> at <hi>Gran,</hi> and cauſed ſome of his great Guns to be paſs'd over there, as if his purpoſe had been to Vinter in his own Territories. Thoſe of <hi>New<g ref="char:EOLhyphen"/>hauſel</hi> laboured hard to get into the <hi>Schut,</hi>
+                        <note place="margin">The Iſland <hi>Schut,</hi> At<g ref="char:EOLhyphen"/>tempted.</note> and ſettle themſelves, be<g ref="char:EOLhyphen"/>twixt the Two Forts of <hi>Raah,</hi> and <hi>Comorra:</hi> whereupon <hi>Montecuculi</hi>
+                        <pb n="43" facs="tcp:151117:30"/>and <hi>Serini</hi> joyn'd their Forces to oppoſe them.</p>
+                     <p>And now the fortune of the War ſeem'd a little to flatter the <hi>Chriſti<g ref="char:EOLhyphen"/>ans;</hi>
+                        <note place="margin">Two defeats given to the Enemy by the Two <hi>Serini's.</hi>
+                        </note> 
+                        <hi>Nicholas Serini</hi> on the 17. of <hi>Oct.</hi> defeating a Party of 300 <hi>Turks,</hi> and his Brother <hi>Peter,</hi> near the ſame time falling upon a Body of about 7000 of them near <hi>Carlſtat,</hi> on the Frontiers of <hi>Stiria:</hi> where they de<g ref="char:EOLhyphen"/>ſigned and Inrode upon the <hi>Chriſti<g ref="char:EOLhyphen"/>ans;</hi> but <hi>Count Serini,</hi> and <hi>Coun Ausburg,</hi> from an <hi>Ambuſcade,</hi> brake in among them, ſlew 1000, and took 100 Priſoners; among which were diverſe Perſons of Note, and the ſon of a great <hi>Baſſa:</hi> The reſt diſperſt themſelves; and the Vi<g ref="char:EOLhyphen"/>ctorious in this Adventure got great Booty.</p>
+                     <p>The <hi>Serinies</hi> have ſhew'd them<g ref="char:EOLhyphen"/>ſelves, in This their deportment, the true Heirs of the Honour, and
+<pb n="44" facs="tcp:151117:31"/>Valour of that Noble Family; and they bring to mind a memorable Action, which was performed by their Grandfather, <hi>Nicholas Serini</hi> in the year 1566, <hi>To his Eternal Glory.</hi>
+                     </p>
+                  </div>
+                  <div type="part">
+                     <p>ON the <hi>6th.</hi> of <hi>Auguſt 1566,</hi>
+                        <note place="margin">
+                           <hi>Sigeth</hi> taken by <hi>Solyman</hi> in 1566. and the Ho<g ref="char:EOLhyphen"/>nourable Death of Count <hi>Ni<g ref="char:EOLhyphen"/>cholas Sere<g ref="char:EOLhyphen"/>ni.</hi>
+                        </note> 
+                        <hi>Solyman</hi> the <hi>Magnificent</hi> layd Siege to the Fort <hi>Sigeth,</hi> wherein this great Captain, <hi>Nicholas Serini</hi> was Governour; who made many bold Sallyes upon the Enemy, took many Priſoners, and at one time cauſed <hi>300 Turks</hi> to be beheaded; which ſo far enraged <hi>Solyman,</hi> that he plyed his Batteries, and Attempts, with greater fury then before. <hi>Serini</hi> perceiving the <hi>New Town</hi> to be upon the point of being entred, cauſed it to be ſet on ſire, and retreated into the <hi>Old.</hi>
+                     </p>
+                     <p>A while after, the <hi>Turks</hi> aſſaulted
+<pb n="45" facs="tcp:151117:31"/>the <hi>Old-Town,</hi> but were ſo bravely received, that in One ſtorm they loſt <hi>2000</hi> men. However they attempt<g ref="char:EOLhyphen"/>ed it again, and carried it; where<g ref="char:EOLhyphen"/>upon, <hi>Serini</hi> was forced to retire into the <hi>Caſtle,</hi> againſt which the Enemy planted a Battery, and gave One furi<g ref="char:EOLhyphen"/>ous Attaque; but were beaten off with great loſs.</p>
+                     <p>While this paſs'd, <hi>Solyman</hi> died of a Bloody-Flux, <hi>(Sept. 4.)</hi> but <hi>Ma<g ref="char:EOLhyphen"/>homet Baſſa</hi> labouring as much as poſſible to keep his death conceal'd from the <hi>Turks,</hi> cauſed the Corps (Em<g ref="char:EOLhyphen"/>balmed, and Gloriouſly Cloathed) to be expos'd in a dark place to the Peo<g ref="char:EOLhyphen"/>ple, as ſitting on his Throne, and the <hi>Baſſa</hi> himſelf, with all his uſual Cere<g ref="char:EOLhyphen"/>monies, and Reverence, feigning ſome ſingular matter of privacy, and buſi<g ref="char:EOLhyphen"/>neſs with him. At length, the <hi>Baſſa</hi> went out of the Tent, wiping his eyes as if he had been crying; which gave
+<pb n="46" facs="tcp:151117:32"/>the Officers occaſion to enquire, why he wept? To whom he replyed, that <hi>It grieved his heart to think how many brave Souldiers would be ſuddenly put to the Sword:</hi> for (ſayes he <hi>Solyman</hi> has maded a <hi>deep</hi> and <hi>deſperate Oath,</hi> that if this Place be not taken in two days, every Colonel that hears any Charge in the Attempt, ſhall certainly be put to death. Hereupon, the <hi>Janizaryes</hi> fell into a direct Rage, and gave a fu<g ref="char:EOLhyphen"/>rious Aſſault; but were repulſed with exceeding loſſe: they had however ſet fire to the <hi>Caſtle,</hi> and now the No<g ref="char:EOLhyphen"/>ble Defender of it, ſeeing his fate be<g ref="char:EOLhyphen"/>fore his eyes, call'd the ſmall remainder of his men about him, and exhorted them to ſtand by him, and reſolve to dye with him. Whereupon, he Clo<g ref="char:EOLhyphen"/>thed himſelf in a <hi>Violet-Coloured Velvet Suit,</hi> took the <hi>Key</hi> of the <hi>Ca<g ref="char:EOLhyphen"/>ſtle,</hi> and ſome Gold in his <hi>Pocket;</hi>
+                        <pb n="47" facs="tcp:151117:32"/>caus'd the Gates to be open'd, and the great Guns to be drawn thither, and diſcharged among the Enemy: and in a Cloud of ſmoake, iſſued forth with his Men, among the <hi>Turks,</hi> and fought till he was ſhot in the head. This was the end of the Valiant <hi>Seri<g ref="char:EOLhyphen"/>ni.</hi> It was reckoned that <hi>20000 Turks</hi> were ſlain before this Fort. No ſooner was <hi>Serini</hi> faln, but the <hi>Infidels</hi> thronging about the Corps, cut off his head, and ſet it on a Polo for one day, after which, they ſent it with a Scoffe to <hi>Maximilian</hi> the Em<g ref="char:EOLhyphen"/>perour. <hi>Now to returne to the Story.</hi>
+                     </p>
+                  </div>
+                  <div type="part">
+                     <p>IN <hi>October,</hi> the <hi>Count</hi> of <hi>Hollach,</hi>
+                        <note place="margin">The Coun<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                              <desc>•</desc>
+                           </gap> of <hi>Hollach</hi> 
+                           <gap reason="illegible" resp="#KEYERS" extent="1 word">
+                              <desc>〈◊〉</desc>
+                           </gap> General of the <hi>Imperia<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                                 <desc>•</desc>
+                              </gap>
+                           </hi> Auxiliaries.</note> being choſen General of the <hi>Im<g ref="char:EOLhyphen"/>periall Auxiliaryes,</hi> came to <hi>Vienna,</hi> his Forces (amounting to 6 or 7000 men) being Enquarter's betwixt
+<pb n="48" facs="tcp:151117:33"/>
+                        <hi>That</hi> and <hi>Crembs;</hi> The Emperours Army, lying at that time near <hi>Presburg,</hi> to recruit, being much weakned by many Inconvenien<g ref="char:EOLhyphen"/>cies. the whole Army, (which the <hi>Hungarians, Croatians,</hi> and <hi>Auxi<g ref="char:EOLhyphen"/>liaryes,</hi> was computed to be 40000 ſtrong; but the ſeveral heads, of ſo many Nations, who at this time were almoſt all in <hi>Vienna,</hi> could not (it ſeems) agree ſo well together, as not to need his <hi>Imperial</hi> Maje<g ref="char:EOLhyphen"/>ſtie's ſingular Care, and Circum<g ref="char:EOLhyphen"/>ſpection, to keep them from ſtart<g ref="char:EOLhyphen"/>ing into <hi>Partyes</hi> and <hi>Paſſions.</hi> There was an Intent to joyn 7 or 8000 men that were raiſed in <hi>Sileſia</hi> to This Body; but the <hi>Sileſian</hi> Forces would neither march out of their native Country, nor obey any For<g ref="char:EOLhyphen"/>reign Command; ſo that They ſtayd at home to defend their <hi>Bor<g ref="char:EOLhyphen"/>ders,</hi> and eſpecially, the Paſſage by <hi>Jablunka.</hi>
+                     </p>
+                     <pb n="49" facs="tcp:151117:33"/>
+                     <p>While the <hi>Chriſtians</hi> were lay<g ref="char:EOLhyphen"/>ing their heads, and their Forces to<g ref="char:EOLhyphen"/>gether, to put themſelves into a Poſture, the Enemy brake up with his main Body before <hi>Newhauſel,</hi>
+                        <note place="margin">the <hi>Turk</hi> breaks up from before <hi>Newhauſel.</hi>
+                        </note> and about the end of <hi>October,</hi> took his March toward <hi>Gran,</hi> and <hi>Offen.</hi> The <hi>Tartars</hi> alſo with their Prey marched toward <hi>Tartary,</hi> carrying along with them their Chiefeſt Captives in Coaches, and Wagons, driving their ordinary Priſoners a<g ref="char:EOLhyphen"/>long with Whips, naked; and their hair flying about their eyes, like ſo many Beaſts. In <hi>
+                           <g ref="char:V">Ʋ</g>pper-Hungary,</hi> they met with ſome oppoſition, at which time many of the Captives were forced out of their hands, and about 2000 of theſe <hi>Tartars</hi> put to the Sword. Count <hi>Nicholas Seri<g ref="char:EOLhyphen"/>ni</hi>'s Deſign, was to fall upopn them, at their paſſing over the <hi>Ship-Bridge,</hi> and followed them cloſe,
+<pb n="50" facs="tcp:151117:34"/>ſometime in the <hi>Rear,</hi> other while on the <hi>Flanck,</hi> ſtill obſerving their motion till he found his opportu<g ref="char:EOLhyphen"/>nity to attaque them.</p>
+                     <p>Upon the laſt day of <hi>October,</hi> he ſet upon the <hi>Rear,</hi>
+                        <note place="margin">
+                           <hi>Serini</hi> falls upon their Rear.</note> and took from them 5 Wagons full of Captives, that they had gotten in <hi>Moravia;</hi> 200 Oxen, and 40 Wagons with Proviſion. In this Action, he did not only releaſe the Captives, but defeated alſo their Drivers, which were about 600 <hi>Janizaries.</hi> They fought ſtoutly for 2 hours from behind their Wagons, ſo that Count <hi>Serini</hi> with his <hi>Huſſars,</hi> were forced to quit their Horſes, and fight them on foot: which they did with excellent conduct, and ſucceſſe, giving Quarter onely to Two Perſons of Note, whoſe lives were at their mercy.</p>
+                     <p>This <hi>Campagnia</hi> ſeem'd now to
+<pb n="51" facs="tcp:151117:34"/>be at an end, and Count <hi>Serini,</hi> ha<g ref="char:EOLhyphen"/>ving in appearance little to do fur<g ref="char:EOLhyphen"/>ther with the Enemy, let his men march homeward: (wanting Fod<g ref="char:EOLhyphen"/>der for their Horſes) the Enemy in the mean while ſteering their Courſe toward <hi>Gran, Offen,</hi>
+                        <note place="margin">The Ar<gap reason="illegible" resp="#KEYERS" extent="2 letters">
+                              <desc>••</desc>
+                           </gap> draw to their Win<g ref="char:EOLhyphen"/>ter-Quar<g ref="char:EOLhyphen"/>ters.</note> and <hi>Weiſſenburg,</hi> as to their <hi>Winter-Quarters.</hi> The <hi>Turks</hi> left a Gar<g ref="char:EOLhyphen"/>riſon of 4000 in <hi>Newhauſel,</hi> under the Command of Two <hi>Baſſaes;</hi> and 10000 about the Fort, partly to defend the <hi>Place,</hi> and partly to repair the <hi>Fortifications.</hi> In <hi>Neutra,</hi> the Enemy left 1500 men, which Place was plundred before the Ar<g ref="char:EOLhyphen"/>mie march'd away. The Earls <hi>Co<g ref="char:EOLhyphen"/>chary,</hi> and <hi>Tekelly,</hi> with a Body of near 15000 men raiſed in the <hi>
+                           <g ref="char:V">Ʋ</g>pper</hi> and <hi>Nether-Hungary,</hi> came In to Count <hi>Serini;</hi> which Conjunction the <hi>Turks</hi> mightily endeavoured to hinder, but could not effect it.
+<pb n="52" facs="tcp:151117:35"/>Theſe Forces arre likewiſe drawn out of the Field, ſince that time.</p>
+                     <p>The <hi>Auxiliaryes,</hi> That is to ſay; the <hi>Heſſen, Brunſwick, Lunenburg, Munster</hi> Forces; and Others from the <hi>Rhyne</hi> (ſome of which, namely Thoſe from <hi>Heſſen Darmſtadt</hi> pe<g ref="char:EOLhyphen"/>riſhed upon the <hi>Danube</hi>) are put into <hi>Winter-Quarters</hi> on the ſide of that River; but the <hi>Saxon,</hi> and <hi>Brandenburg Auxiliaryes,</hi> are to lye in <hi>Bohemia,</hi> and <hi>Moravia;</hi> and the <hi>Sileſian</hi> Forces to tarry in their own Country: For the Councel of Warre at <hi>Vienna,</hi> did not hold it Adviſable, to Quarter all the <hi>Auxiliaryes</hi> near together, for fear of Surfeits up<g ref="char:EOLhyphen"/>on the Fruits; beſide that they would have wanted Fodder for their Horſe, and in the foule deep wayes they would have
+<pb n="53" facs="tcp:151117:35"/>found great trouble to have fetch'd it.</p>
+                     <p>Another Conſideration was, the Eaſing of the <hi>Hungarians,</hi> who were already ſufficiently weary of Billeting Souldiers. In Fine; there is no great Noyſe of Armes, and Action, at pre<g ref="char:EOLhyphen"/>ſent, but how the Enemy may be oppos'd next Spring, is the Conſultation, and the Queſtion; who threatens <hi>Vienna,</hi> and the <hi>Empire,</hi> with no leſſe then 3 or 400000 Men at the Next <hi>Cam<g ref="char:EOLhyphen"/>pagnia.</hi>
+                     </p>
+                     <p>It was now Reſolv'd by his <hi>Imperiall</hi> Majeſty, to go to <hi>Re<g ref="char:EOLhyphen"/>genſpurg</hi> about the end of <hi>No<g ref="char:EOLhyphen"/>vember</hi> following; there to Ad<g ref="char:EOLhyphen"/>viſe about the Reliefe of the <hi>Empire,</hi> and indeed of <hi>Christen<g ref="char:EOLhyphen"/>dome:</hi> and his <hi>Imperial</hi> Majeſty did likewiſe Reſolve to ſend
+<pb n="54" facs="tcp:151117:36"/>Embaſſadours to the <hi>Pope, Spain, France,</hi> &amp;c. To Sollicit Succour. From the <hi>Pope, Moneys</hi> are ex<g ref="char:EOLhyphen"/>pected; <hi>France</hi> proffers <hi>Men</hi> (but who dares receive them?) <hi>Swede</hi> is willing to Aſſiſt in reſpect of their Intereſt in <hi>Germany,</hi> and they have ſent already 700 well mounted that came from <hi>Bre<g ref="char:EOLhyphen"/>men:</hi> So that the Inſtant Buſi<g ref="char:EOLhyphen"/>neſſe of the <hi>Empire</hi> ſeems to be rather <hi>Preparation,</hi> then <hi>Preſent Defence;</hi> and to look forward to<g ref="char:EOLhyphen"/>ward the Spring: The <hi>Grand Signior</hi> having already diſpers'd his Letters of Menace, and De<g ref="char:EOLhyphen"/>fyance to all <hi>Chriſtendom</hi> through<g ref="char:EOLhyphen"/>out the <hi>Emperours</hi> Hereditary Countries.</p>
+                  </div>
+                  <div type="part">
+                     <pb n="55" facs="tcp:151117:36"/>
+                     <p>UPon the <hi>turks</hi> withdrawing the Groſſe of his Army, from about <hi>Newhauſel,</hi> over the <hi>Danube,</hi> with a Countenance of Diſpoſing himſelf to his <hi>Winter Quarter;</hi> Mens minds began to be a little Compos'd and Quiet; till <hi>Abafti,</hi>
+                        <note place="margin">
+                           <hi>Abafti</hi> trou<g ref="char:EOLhyphen"/>bles the <hi>Imperialiſts</hi> in this <hi>Tur<gap reason="illegible" resp="#KEYERS" extent="2 letters">
+                                 <desc>••</desc>
+                              </gap>
+                           </hi> Abſence.</note> the <hi>Grant Signiors</hi> Creature in <hi>Tranſylvania</hi> under<g ref="char:EOLhyphen"/>took the <hi>Turks</hi> Aftergame, with thoſe Forces that ſtay'd behind; Labouring his Utmoſt to poſſeſs himſelf of the <hi>Berg,</hi> or <hi>Mine-Towns,</hi> (whence comes the <hi>Hun<g ref="char:EOLhyphen"/>garian</hi> Gold) and other Frontier Places, and Houſes belonging of Right to his <hi>Imperiall</hi> Majeſty: which Perfidious Deſigne the <hi>Christians</hi> Army could not con<g ref="char:EOLhyphen"/>veniently either prevent, or op<g ref="char:EOLhyphen"/>poſe, being already diſpers'd for
+<pb n="56" facs="tcp:151117:37"/>want of Neceſſaries both for Man, and Beaſt.</p>
+                     <p>This ſame <hi>Abafti;</hi> paſs'd in of Common Eſteem,<note place="margin">
+                           <hi>Abfti</hi>'s manner of <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                              <desc>•</desc>
+                           </gap>roceeding.</note> for a Perſon well affected to the <hi>Christians,</hi> and as One that wayted onely a fayre Opportunity to draw his Sword againſt the <hi>Turk;</hi> but his Actions have now diſco<g ref="char:EOLhyphen"/>ver'd him: for perceiving what Reputation, Preſents, and other Popular Advantages, have ac<g ref="char:EOLhyphen"/>crued to the <hi>Grand Vizier,</hi> and and the Chief Officers of the <hi>Turkiſh</hi> Army, upon the Gayn<g ref="char:EOLhyphen"/>ing of <hi>Newhauſel;</hi> He likewiſe turn'd his Study, and Endea<g ref="char:EOLhyphen"/>vours the ſame way, not doubt<g ref="char:EOLhyphen"/>ing by his intereſts, and Ser<g ref="char:EOLhyphen"/>vices, to draw from the <hi>Turk<g ref="char:EOLhyphen"/>iſh Emperour</hi> as fayre a Reward; undertaking not only to keep, what was already gotten, but to
+<pb n="57" facs="tcp:151117:37"/>Enlarge the Conqueſt by a Conſi<g ref="char:EOLhyphen"/>derable Addition.</p>
+                     <p>It being found neither Com<g ref="char:EOLhyphen"/>modious, nor Beneificiall to ex<g ref="char:EOLhyphen"/>poſe the <hi>Turks,</hi> and other <hi>Aſi<g ref="char:EOLhyphen"/>atick,</hi> and <hi>African</hi> Forces (whoſe Bodyes have been uſed to a Temperate warme Ayre) to the cold Winter-Blaſts of <hi>Hungary:</hi> (which are ſharp, though not long) the Hardſhip of the <hi>Win<g ref="char:EOLhyphen"/>ter-Warre</hi> was rather Committed to the <hi>Mountaineers;</hi> That is; to the <hi>Abaftiſh Tranſylvanians, Moldavians, Wallachians,</hi> &amp;c. whoſe part it is, to Mainteyn the <hi>Turks</hi> Ground at leaſt, if not carry the Victory further; and in Brief, to hold the <hi>Imperi<g ref="char:EOLhyphen"/>alists</hi> in Play, till the <hi>Ottoman</hi> Ar<g ref="char:EOLhyphen"/>my, may conveniently take the Field again toward the Spring. And leaſt the Town <hi>Neutra</hi> ſhould
+<pb n="58" facs="tcp:151117:38"/>be left Naked; inſtead of about ſix hundred <hi>Turks,</hi> and <hi>Janiza<g ref="char:EOLhyphen"/>ryes,</hi> that were taken out of That Garriſon, Others, that could bet<g ref="char:EOLhyphen"/>ter endure the Ayre of the Place, were put in, and a Garriſon of one hundred and fifteen <hi>Janizaryes</hi> into the Caſtle, (a Sort of Peo<g ref="char:EOLhyphen"/>ple which are of great Credit with the <hi>Turk</hi> in Martiall Affayrs; And in truth, Theſe were the Men that ventur'd the hardeſt be<g ref="char:EOLhyphen"/>fore <hi>Newhauſel.</hi>)</p>
+                     <p>
+                        <hi>Janizaryes</hi> are <hi>Chriſtians Chil<g ref="char:EOLhyphen"/>dren,</hi>
+                        <note place="margin">
+                           <hi>Janizaryes,</hi> what they are.</note> which were either taken <hi>Captive,</hi> or given in the way of <hi>Tribute,</hi> by ſuch <hi>Christians</hi> as have done Homage to the <hi>Turks,</hi> Theſe Children are tryan'd up from their Child-hood, in the <hi>Mahumetan Belief,</hi> and Inur'd to <hi>Military</hi> Exerciſes. They are very Nu<g ref="char:EOLhyphen"/>merous and Valiant; and doubt<g ref="char:EOLhyphen"/>leſſe
+<pb n="59" facs="tcp:151117:38"/>the beſt Support of the <hi>Turkiſh Empire.</hi> As their Pow<g ref="char:EOLhyphen"/>er is of great Uſe, and Service to the <hi>Ottoman Emperour</hi> in ſome Caſes, ſo is it in others not leſſe dangerous, their Revolts and Tumults being ſeldome laid, or quieted without Horrible Ra<g ref="char:EOLhyphen"/>pine, and Effuſion of Blood. Miſery of Miſeryes! That the Children of <hi>Chriſtians</hi> ſhould be thus engaged in ſo Implacable an Enmity to the Dictates both of <hi>Christ</hi> and <hi>Nature!</hi>
+                     </p>
+                     <p>About This Time; Newes was brought that a Young Son was born to <hi>Mahomet;</hi> upon which Tydings, ſuch a Face was ſet upon the Buſineſſe, as if it had been a Material Part of their Religion to welcome this young Idoll into the world with the Sa<g ref="char:EOLhyphen"/>crifice of more <hi>Chriſtian</hi> Blood.</p>
+                     <pb n="60" facs="tcp:151117:39"/>
+                     <p>
+                        <hi>Abafti</hi>'s Ayme, (as we have ſaid before) was to work himſelf in among the <hi>Mine-Towns.</hi> The two firſt conſiderable Blocks in his way were <hi>Lewents,</hi> and <hi>No<g ref="char:EOLhyphen"/>vigrad;</hi> (beſide others of leſſe Importance.) In <hi>Lewents</hi> were good Fighting men, Back'd with a Caſtle that was well Fortifyed with Thick Walls, and Firm Tur<g ref="char:EOLhyphen"/>rets. In This Place, the Enemy found Stout Oppoſition, and Loſt many Men before it;<note place="margin">
+                           <hi>Lewents</hi> Rendred upon Ac<g ref="char:EOLhyphen"/>cord.</note> but at laſt, preſſing upon it with greater Numbers, and no Relief appear<g ref="char:EOLhyphen"/>ing within diſtance, they took it upon Accord. Thoſe that March'd out were in no ſort In<g ref="char:EOLhyphen"/>jured, and Thoſe that ſtay'd be<g ref="char:EOLhyphen"/>hind were diſarm'd, and did Ho<g ref="char:EOLhyphen"/>mage.</p>
+                     <p>After <hi>Lewents,</hi> followed <hi>Novi<g ref="char:EOLhyphen"/>grad,</hi> that lyes deeper in the <hi>
+                           <g ref="char:V">Ʋ</g>pper-Hungary;</hi>
+                        <pb n="61" facs="tcp:151117:39"/>which although a ſtrong Place, and environ'd with a <hi>Mo<g ref="char:EOLhyphen"/>raſſe;</hi> yet after a ſtout Reſiſtance was forc'd to Render to the Ene<g ref="char:EOLhyphen"/>my.<note place="margin">
+                           <hi>Novigrad</hi> Renders to the <hi>Turk.</hi>
+                        </note> The Forces in it were Con<g ref="char:EOLhyphen"/>ducted to <hi>Waitzen,</hi> where they be<g ref="char:EOLhyphen"/>took themſelves to work for their Living, as the Reſt of the Peaſants, and are enjoyn'd to be ever in Rea<g ref="char:EOLhyphen"/>dineſſe with their Armes. The Governour of it, by Name, <hi>Le<g ref="char:EOLhyphen"/>dami,</hi> got leave from <hi>Abafti</hi> to go to his Country-Houſe in <hi>Tranſyl<g ref="char:EOLhyphen"/>vania,</hi> and to dwell there, which ſoon after he did.</p>
+                     <p>On the <hi>Chriſtians</hi> ſide, there was no good will wanting to<g ref="char:EOLhyphen"/>wards the Relief of any of theſe Places; but all their Attempts fell ſhort, by Reaſon of many Faralities, and Accidents Interve<g ref="char:EOLhyphen"/>ning.</p>
+                     <pb n="62" facs="tcp:151117:40"/>
+                     <p>Theſe Succeſſes Encouraged the Enemy to draw nearer to the <hi>Mine-Towns,</hi> and to Endeavour the making of their <hi>Winter-Quar<g ref="char:EOLhyphen"/>ter</hi> thereabouts, and in <hi>
+                           <g ref="char:V">Ʋ</g>pper-Hungary.</hi> A Rumour was then diſperſed, that the <hi>Great Vizier</hi> had Commanded the Magiſtrates of <hi>Fryſtadt,</hi> and the Neighbou<g ref="char:EOLhyphen"/>ring Parts, upon pain of Death to make a <hi>Ship-Bridge</hi> over the <hi>VVaegh</hi> with all ſpeed, and to provide Victuals and Fodder to entertain him at his comming back. Thus did new Cares and Troubles come on, in a Seaſon, when every man flatter'd himſelf with ſome hopes of Reſpit and Re<g ref="char:EOLhyphen"/>poſe.</p>
+                     <p>Count <hi>Serini,</hi> that till now, ſtaid in the Iſle of <hi>Schutt,</hi> put him<g ref="char:EOLhyphen"/>ſelf Inſtantly into Motion, and now and then, met with ſome
+<pb n="63" facs="tcp:151117:40"/>Parties, and took good Booty from them; But alaſs! This would not ſerve to ſet the Ballance even. Upon <hi>November</hi> 12. He took, in a Mooriſh Place, betwixt <hi>Raab,</hi> and <hi>Comorra,</hi> ten Camels, and as many Mules, laden with Truncks full of Gold and Silver-Plate; to<g ref="char:EOLhyphen"/>gether with the Conductours, who were bound for <hi>Conſtantinople</hi> with this Booty.</p>
+                     <p>In <hi>Comorra</hi> (where the Officers were at that time under Que<g ref="char:EOLhyphen"/>ſtion, and came off well, about the Surrender of <hi>Newhauſel</hi>) there were great Complaints of Scar<g ref="char:EOLhyphen"/>city of Proviſion; the Country being ſo miſerably waſted round about it. Whereupon, at <hi>Vi<g ref="char:EOLhyphen"/>enna</hi> it was taken into thought, how thoſe out-lying Garriſons might be ſupplyed, and the Ene<g ref="char:EOLhyphen"/>my diſappointed of their Ayme,
+<pb n="64" facs="tcp:151117:41"/>who knew full well the State of their Neceſſities. It is certain, that the <hi>Auxiliaries,</hi> and other Forces that were Quarter'd in <hi>Co<g ref="char:EOLhyphen"/>morra,</hi> would much rather have kept the Field, if all other Cir<g ref="char:EOLhyphen"/>cumſtances would have permitted it; but thoſe <hi>Auxiliaries,</hi> who by too liberall Feeding on the <hi>Au<g ref="char:EOLhyphen"/>ſtrian</hi> and <hi>Moravian</hi> Fruits, had Contracted Diſeaſes, neither could, nor would ſtir; beſide that their General, Count <hi>Hohenlo,</hi> a Pru<g ref="char:EOLhyphen"/>dent, Expert, and Judicious Com<g ref="char:EOLhyphen"/>mander, gave many weighty Rea<g ref="char:EOLhyphen"/>ſons againſt it. No ſooner had this Lord made an Acquaintance in <hi>Vienna;</hi> But ill Fortune met with him,<note place="margin">Count <hi>Ho<g ref="char:EOLhyphen"/>henlo</hi>'s Chamber Robb'd.</note> his Chamber being Robb'd of Writings, Moneyes, and Jewels, to the value of betwixt twenty and thirty thouſands <hi>Rix Dollars.</hi>
+                     </p>
+                     <pb n="65" facs="tcp:151117:41"/>
+                     <p>The <hi>Swediſh Auxiliaries</hi> were not yet come up; but by Advice from <hi>Leipſick,</hi> they were then upon their March, not far from <hi>Thuringen,</hi> (about the midſt of <hi>November</hi>) and 150. horſe were likewiſe to come from <hi>Pomera<g ref="char:EOLhyphen"/>nia,</hi> which Forces became the Ground of great Miſtakes hap<g ref="char:EOLhyphen"/>pening to be in Motion juſt upon that Nick of time, when the <hi>Er<g ref="char:EOLhyphen"/>fordians</hi> (being then Outlawed) were in expectation of the <hi>Ment<g ref="char:EOLhyphen"/>ziſh</hi> Troups: Upon whom they Iſſued forth, and in their Re<g ref="char:EOLhyphen"/>turn left two Carpenters behind them, whom they hanged upon a Waggon, which did much en<g ref="char:EOLhyphen"/>flame the tumult: but the <hi>Swe<g ref="char:EOLhyphen"/>diſh</hi> Troups, which had ſo much troubled the heads of divers Peo<g ref="char:EOLhyphen"/>ple, proved to be a Force of a<g ref="char:EOLhyphen"/>nother deſign, and quality.</p>
+                     <pb n="66" facs="tcp:151117:42"/>
+                     <p>The Rumour of the Return of the <hi>Turkiſh</hi> Army, (now ſo late in <hi>November</hi>) encreaſed more and more; at which time <hi>Filleck</hi> (ſome ten Mile from <hi>Caſſaw</hi>) was given for loſt; So that cer<g ref="char:EOLhyphen"/>tain Regiments were immediate<g ref="char:EOLhyphen"/>ly ſent to make good the other <hi>Mine-Towns,</hi> which the Enemy had particularly in their Eye for a <hi>Winter-Quarter.</hi> Thoſe <hi>Chri<g ref="char:EOLhyphen"/>ſtians</hi> which about this time ran<g ref="char:EOLhyphen"/>ſom'd themſelves from the <hi>Turks,</hi> ſpeak much of the Stupendious Preparations, which are now in hand againſt <hi>Chriſtendome;</hi> Af<g ref="char:EOLhyphen"/>firming it for a certainty, that the <hi>Grand Signior</hi> is reſolv'd to take the Field next Spring, with an Army of three hundred thouſand Men, which cauſes great perplex<g ref="char:EOLhyphen"/>ities in <hi>Poland, Hungary, Mora<g ref="char:EOLhyphen"/>via, Sileſia,</hi> and <hi>Bohemia;</hi> but
+<pb n="67" facs="tcp:151117:42"/>the <hi>Polanders,</hi> being at peace with the <hi>Turks,</hi> conceived them<g ref="char:EOLhyphen"/>ſelves in ſome meaſure ſecured by virtue of that Agreement; but in the <hi>Tartars, Moldavians,</hi> and <hi>Wallachians,</hi> they have not much confidence: Eſpecially, when they are upon their Excur<g ref="char:EOLhyphen"/>ſions. Many were of opinion, that the <hi>Turks</hi> were forc'd upon an irregular and precipitate Re<g ref="char:EOLhyphen"/>treat for want of Proviſions, and that their attempts ſo late in the year, upon <hi>Moravia,</hi> and the neighbouring <hi>Provinces,</hi> were cauſed partly by the Inviting plen<g ref="char:EOLhyphen"/>ty of all neceſſaries, which thoſe Countries afford; and in part, by the encouragement they received from their correſpondents in thoſe Quarters; beſide the ſcarcitie, which their longer continuance, upon the <hi>Danube</hi> would infalli<g ref="char:EOLhyphen"/>bly
+<pb n="68" facs="tcp:151117:43"/>have produced thereabouts, to the great inconvenience of their Armies next Spring.</p>
+                     <p>
+                        <hi>Hungary</hi> lay now groaning un<g ref="char:EOLhyphen"/>der the burden of the <hi>Turkiſh</hi> Power, and longing for aid; the <hi>Infidels</hi> over-ſpreading it like a diſmal Cloud, charged with Hail and Thunder: all mens thoughts being ſollicitous for deliverance, and in continual expectation where the ſtorm would fall. Many were of opinion, that ſubmiſſion was the beſt expedient in this ex<g ref="char:EOLhyphen"/>tremity; but betwixt the ſenſe of their <hi>Allegiance</hi> ſworn to the <hi>Emperour,</hi> and the diſtruſt they had of the <hi>Turks</hi> Juſtice to his word, divers held off.</p>
+                     <p>The Enemy (who did nothing raſhly, though as is generally ſup<g ref="char:EOLhyphen"/>poſed, rather acting by <hi>Inſtigati<g ref="char:EOLhyphen"/>on</hi> then <hi>choice</hi>) counted it moſt
+<pb n="69" facs="tcp:151117:43"/>
+                        <hi>adviſeable</hi> to draw toward <hi>Caſſaw</hi> the head City of <hi>
+                           <g ref="char:V">Ʋ</g>pper-Hungary;</hi> knowing full well that when ever the <hi>Chriſtians</hi> ſhould <hi>
+                           <g ref="char:V">Ʋ</g>nite,</hi> they would make this place the Seat of War, and Settle themſelves there: Wherefore the <hi>Infidels</hi> went roundly to work, removing whatſoever might hinder their Progreſſe, before any ſuccor could come up to them, which ſuccour would however at laſt ſignifie not much againſt ſo Potent an Enemy.</p>
+                     <p>About this time, the <hi>Polanders</hi> were a little Frighted with the <hi>Tartars,</hi> who though returning homeward with their booty al<g ref="char:EOLhyphen"/>ready gotten, might yet be temp<g ref="char:EOLhyphen"/>ted by their greedineſs after more to break into the <hi>Cracovian Way<g ref="char:EOLhyphen"/>wood-ſhip;</hi> and from thence, to advance into <hi>Sileſia,</hi> according to
+<pb n="70" facs="tcp:151117:44"/>the old ſaying, <hi>Si Turca veniet in Germaniam, Ibit per Poloniam.</hi> If the <hi>Turk</hi> comes into <hi>Germany,</hi> he ſhall paſſe through <hi>Poland.</hi> Theſe Incarnat and Rapacious Devils, however kept off yet, and carried their prey to their <hi>Caverns</hi> there to divide it. One thing is, that <hi>Cham,</hi> being the Head and Soveraign of theſe <hi>Tartars</hi> which had been in <hi>Moravia,</hi> was a friend to <hi>Poland,</hi> and about this time his Forces went in abundance with the King of <hi>Poland,</hi> (in per<g ref="char:EOLhyphen"/>ſon) and the Army, together with a great number of <hi>Coſſacks,</hi> againſt the <hi>Muſcovite,</hi> marching over the River <hi>Nieper,</hi> otherwiſe called <hi>Boriſthenes.</hi> The <hi>Turks</hi> however went on in their proceeding, ſub<g ref="char:EOLhyphen"/>duing <hi>Shemniz, Cremniz,</hi> &amp; other <hi>Mine towns,</hi> &amp; ſending threatning Letters to the Magiſtrates there<g ref="char:EOLhyphen"/>about,
+<pb n="71" facs="tcp:151117:44"/>who being over-aw'd by the Terrour of Menaces, moved the People under them to do Ho<g ref="char:EOLhyphen"/>mage to theſe <hi>Infidels.</hi> The ta<g ref="char:EOLhyphen"/>king of the Fort <hi>Navigrad,</hi> (upon the ſtrength whereof the People ſo much depended) did not a lit<g ref="char:EOLhyphen"/>tle conduce to the Subjecting of the reſt. And now they made their excurſions towards <hi>Tokay,</hi> (where their nobleſt Wines grow) a ſtrong Hold, Moted round a<g ref="char:EOLhyphen"/>bout, and alwayes reputed as in<g ref="char:EOLhyphen"/>vincible. Upon this place they practiſed both <hi>ſubtilty</hi> and <hi>force,</hi>
+                        <note place="margin">
+                           <hi>Tokay</hi> at<g ref="char:EOLhyphen"/>tempted.</note> as they had <hi>done</hi> before <hi>Novigrad;</hi> but honeſt men had the keeping of it, and ſo they were forc'd to paſs it by.</p>
+                     <p>About this time the <hi>Turks</hi> cauſ<g ref="char:EOLhyphen"/>ed the late ſubdued <hi>Lewents</hi> to be demoliſh'd,<note place="margin">
+                           <hi>Lewents</hi> demoli<g ref="char:EOLhyphen"/>ſhed.</note> as not liking the manner of the Fortification, and
+<pb n="72" facs="tcp:151117:45"/>ſent a threatning Order to thoſe of <hi>Fryſtadt,</hi> to diſpatch out of hand two Bridges over the <hi>Waegh</hi> larger then the former, and to make them broad enough for whole Squadrons to paſs a Breaſt; And now they began to talk loud of another Invaſion into <hi>Moravia;</hi> to which end, many thouſands of the <hi>Tawny-Tartars</hi> throng'd into the Camp, as if thoſe of the o<g ref="char:EOLhyphen"/>ther complexion, had not yet play<g ref="char:EOLhyphen"/>ed the Devils ſufficiently in the Country; Whereupon to prevent that Inrode, a <hi>Counter-mand</hi> was ſent to moſt of thoſe forces, that were now march'd, or marching off to their <hi>Winter-Quarters;</hi> and Order given them to bend their Courſe toward the <hi>Waegh.</hi> Al<g ref="char:EOLhyphen"/>though this Countenance of the <hi>Turks</hi> deſign gain'd not much Credit, in regard of the ſeaſon
+<pb n="73" facs="tcp:151117:45"/>of the Year, it was however held for good diſcretion, not to be too ſecure.</p>
+                     <p>Near the end of <hi>November,</hi> came to <hi>Vienna</hi> diverſe of the ſer<g ref="char:EOLhyphen"/>vants of <hi>Baron de Goes,</hi> (who had been long employ'd as the <hi>Empe<g ref="char:EOLhyphen"/>rours</hi> Agent toward the inten<g ref="char:EOLhyphen"/>ded treaty for Peace) Affirming that the <hi>Grand Signior</hi> with the <hi>Tartar Cham,</hi> have reſolved, with an Incredible Force, to come per<g ref="char:EOLhyphen"/>ſonally into the Field next ſpring; and joyn the utmoſt of their pow<g ref="char:EOLhyphen"/>er againſt <hi>Chriſtendome.</hi>
+                     </p>
+                     <p>Upon the taking of which Re<g ref="char:EOLhyphen"/>ſolution, vaſt Quantities of Rice and Corn were ordered at <hi>Adri<g ref="char:EOLhyphen"/>anople,</hi> and <hi>Philippopoli</hi> to be car<g ref="char:EOLhyphen"/>ried to <hi>Greek-Weiſſenberg,</hi> and from thence to <hi>Offen.</hi> This de<g ref="char:EOLhyphen"/>termination and proceeding, en<g ref="char:EOLhyphen"/>gaged the <hi>Chriſtians</hi> to uſe their
+<pb n="74" facs="tcp:151117:46"/>utmoſt Endeavours poſſible, for the bringing of a conſiderable bo<g ref="char:EOLhyphen"/>dy into the Field next Spring; and to this purpoſe, his <hi>Imperial</hi> Ma<g ref="char:EOLhyphen"/>jeſty having firſt given Audience to the Report of the ſaid <hi>Baron,</hi> gives immediate Order for Pre<g ref="char:EOLhyphen"/>parations; taking his Journy to the <hi>Diet</hi> at <hi>Regenſpurg,</hi>
+                        <note place="margin">The <hi>Em<g ref="char:EOLhyphen"/>perour</hi> goes to the <hi>Diet.</hi>
+                        </note> to ſtir up the Princes of the <hi>Empire</hi> to a General Conjunction againſt the <hi>Turk.</hi> In the <hi>Interim,</hi> the Arch-Duke <hi>Charles Joſeph,</hi> being de<g ref="char:EOLhyphen"/>ſign'd to keep his Reſidence in <hi>Vienna,</hi> put himſelf upon the way thither from <hi>Lintz;</hi> but fell in<g ref="char:EOLhyphen"/>to ſuch a weakneſs upon the Jour<g ref="char:EOLhyphen"/>ny, that he was enforc'd to go back. The Chief Officers ap<g ref="char:EOLhyphen"/>pointed to ſtay behind in <hi>Vienna,</hi> applyed themſelves with all dili<g ref="char:EOLhyphen"/>gence to the putting their Orders in Execution.</p>
+                     <pb n="75" facs="tcp:151117:46"/>
+                     <p>
+                        <hi>Schinta</hi> was now provided a<g ref="char:EOLhyphen"/>freſh with Ammunition and Pro<g ref="char:EOLhyphen"/>viſion, and the Great Artillery removed from thence, the <hi>Mon<g ref="char:EOLhyphen"/>tecuculiſh</hi> Army, which for a long time had been Quarter'd near the <hi>Presburg Ship-Bridg,</hi> moving likewiſe toward <hi>Moravia.</hi> The Count <hi>de Souches</hi> conceived ſome hopes of recovering <hi>Neutra,</hi> and prepar'd accordingly; the loſs of that place being reputed not much inferiour to the loſs of <hi>New<g ref="char:EOLhyphen"/>hauſel: Neutra</hi> being an <hi>Epiſco<g ref="char:EOLhyphen"/>pal</hi> Seat, <hi>New-hauſel</hi> only a Quar<g ref="char:EOLhyphen"/>ter for <hi>Souldiers,</hi> which begat a greater Zeal, and Earneſtneſs to<g ref="char:EOLhyphen"/>ward the Recovery of the Place.</p>
+                     <p>This Fort (in <hi>Latine, Nitria</hi>) lies upon the River <hi>Neutra,</hi>
+                        <note place="margin">
+                           <hi>Neutra</hi> deſcri<g ref="char:EOLhyphen"/>bed.</note> which encloſes the Fort like an Iſland, together with the high and low Town; and from hence it takes
+<pb n="76" facs="tcp:151117:47"/>it's denomination. The River is pretty large, but not Navigable, although of a ſtrong and deep ſtream, abounding with varietie of Excellent Fiſh: The <hi>Caſtle</hi> ſtands upon the top of a Craggy Rock, and the Proſpect from it, is fair and large, upon a ſpacious Level; without any Mountain or high place, within diſtance to command or endanger it. The Town under it is built upon the ſide of the Hill, declining by degrees, till it comes to the River, which parts the upper and the lower Town.</p>
+                     <p>Within this <hi>Caſtle</hi> ſtands an Eminent <hi>Minſter,</hi> of a ſtrong and goodly Structure, overtopping all the reſt of the Buildings abou it. There is alſo a Princely Pallace, which hath been formerly famous for Rich Furniture, and choice
+<pb n="77" facs="tcp:151117:47"/>curioſities of Paintings, Hangings, and the like. From without, it is encompaſſed with a brave <hi>wood:</hi> So that in fine, This Place conſi<g ref="char:EOLhyphen"/>dered within it ſelf, together with it's Situation and Proſpect, can<g ref="char:EOLhyphen"/>not be ſaid to want any thing re<g ref="char:EOLhyphen"/>quiſite, to the accompliſhment of a moſt delicious Habitation.</p>
+                     <p>The <hi>
+                           <g ref="char:V">Ʋ</g>pper-Town</hi> below the <hi>Caſtle,</hi> contains a new-rais'd <hi>Fran<g ref="char:EOLhyphen"/>ciſcan Cloyſter,</hi> and many other fair Fabricks, and Houſes lately Erected. In this Town were ga<g ref="char:EOLhyphen"/>thered together many Rarities, not onely of ſtrange Birds and Beaſts, but alſo of Mechanical and Artificial Works. Now albeit, that this Fort, in reſpect of it's Site and Fortification, might well enough Stile it ſelf Impregnable, as in former times it has ever been reputed, (nor indeed was it ever
+<pb n="78" facs="tcp:151117:48"/>Aſſaulted till now) yet were not all theſe advantages ſufficient to Maintain it, againſt the Malice and Treachery of a ſingle Perſon, who without any Oppoſition, or the leaſt colour of neceſſity, de<g ref="char:EOLhyphen"/>livered up this Epiſcopal Seat, into the Hands of Blood-thirſty <hi>Infidels:</hi> the Places of ſo many Religious Perſons, and other <hi>Chri<g ref="char:EOLhyphen"/>ſtians,</hi> being at preſent ſupplied by ſeven or eight hundred <hi>Jani<g ref="char:EOLhyphen"/>zaries,</hi> among, and with the reſt, which the <hi>Grand <g ref="char:V">Ʋ</g>izier</hi> has put in for a Garriſon. To conclude, in outward appearance it was plain enough, that the taking of this Place, was no Winter-Work.</p>
+                     <p>When it was too late, the Suc<g ref="char:EOLhyphen"/>cour above mentioned drew near to the <hi>Mine-Towns,</hi> and puniſh'd ſome of thoſe that were too for<g ref="char:EOLhyphen"/>ward in going over, and ſubmit<g ref="char:EOLhyphen"/>ting
+<pb n="79" facs="tcp:151117:48"/>to the <hi>Turk:</hi> as particularly in <hi>Bugans,</hi> which in truth brought great miſery upon the poor Coun<g ref="char:EOLhyphen"/>try people; who amongſt ſo many coming and going Parties, were in a great ſtraight how to behave themſelves. Count <hi>Peter Serini,</hi> with ſome of the <hi>Auxiliary forces</hi> attempted a viſit upon thoſe in <hi>Boſnia,</hi> and the other Turkiſh Troups, which he had lately ruf<g ref="char:EOLhyphen"/>fled near to <hi>Carlſtadt.</hi> Count <hi>Nicholas Serini</hi> likewiſe, did all that was poſſible by ſeveral ways and means, to gall and weaken the Enemy: Nor were the Gar<g ref="char:EOLhyphen"/>riſons of <hi>Raab</hi> and <hi>Comorra</hi> leſſe Vigilant and Active; but every day looking abroad, and many times returning with Priſoners, and good Booty. The <hi>Sileſians</hi> alſo ſtood ready upon the Bor<g ref="char:EOLhyphen"/>ders, with a Body of Nine or Ten
+<pb n="80" facs="tcp:151117:49"/>Thouſand Men, to prevent the <hi>Turks</hi> breaking in upon them; but about this time, there paſs'd not any Action of great Import: The Enemy toward the Month of <hi>December,</hi> lying cloſe and quiet about <hi>Gran, Offen,</hi> and <hi>Greek-Weiſſenburg,</hi> to which laſt place the <hi>Grand Vizier</hi> betook himſelf in Perſon, taking along with him <hi>Baron de Goes,</hi> his <hi>Imperial</hi> Ma<g ref="char:EOLhyphen"/>jeſties Reſident at the <hi>Ottoman</hi> Court.</p>
+                     <p>On the other ſide, <hi>Abafti,</hi> with his <hi>Agents,</hi> were cloſe at work in <hi>
+                           <g ref="char:V">Ʋ</g>pper-Hungary,</hi> trying what good might be done there, either by force or ſurprize, and uſing their utmoſt endeavours to diſ<g ref="char:EOLhyphen"/>poſe the <hi>Hungarians</hi> to a general Revolt;<note place="margin">
+                           <hi>Abafti</hi> tampers with the <hi>Hungari<g ref="char:EOLhyphen"/>ans.</hi>
+                        </note> 
+                        <hi>Abafti</hi> in the mean time chalking out the way to the <hi>Grand Vizier,</hi> which he thought moſt
+<pb n="81" facs="tcp:151117:49"/>conducing to his purpoſe, telling him, that the <hi>Hungarians</hi> were moſt likely to be wrought upon by mild and gentle means, which might be ſo propounded, and re<g ref="char:EOLhyphen"/>preſented to them, that of two Evils, they might look upon ſub<g ref="char:EOLhyphen"/>miſſion to be the leaſt.</p>
+                     <p>In this Injuncture, Prince <hi>Ra<g ref="char:EOLhyphen"/>gotzi's</hi> Widow began ſenſibly to perceive, that <hi>Hungary</hi> would be no place for her to abide in: Whereupon, She and her Son ad<g ref="char:EOLhyphen"/>dreſſed themſelves to his Majeſty of <hi>Poland,</hi> making Suit, that in this their diſtreſs, ſome place of Retreat might be afforded them within that <hi>Crowns Dominions;</hi> but to this Requeſt of Hers, the King of <hi>Poland</hi> demurr'd; not only out of particular reſpects to Her Husbands demerits from that Crown; but for fear alſo of diſobli<g ref="char:EOLhyphen"/>ging
+<pb n="82" facs="tcp:151117:50"/>the <hi>Turk,</hi> by allowing her Entertainment: Beſide that the <hi>Cracovian Waywood-ſhip,</hi> by rea<g ref="char:EOLhyphen"/>ſon of the <hi>Turks</hi> drawing that way, was now in greater care and fear then ever, and with all ſpeed ſent a Meſſenger to the <hi>Crown-Marſhal,</hi> to ſollicite the Court to conſider of it: The <hi>Waywood</hi> himſelf refuſing to go in Perſon to <hi>
+                           <g ref="char:V">Ʋ</g>krain,</hi> and to attend other peoples buſineſs, to the hazzard of his own: Whereupon he not onely obtained leave to ſtay at home, and look to his Charge; but alſo to write an amicable Let<g ref="char:EOLhyphen"/>ter to the <hi>Grand <g ref="char:V">Ʋ</g>izier,</hi> deſi<g ref="char:EOLhyphen"/>ring that a faire underſtanding might be continued, and invio<g ref="char:EOLhyphen"/>lably preſerved betwixt him and <hi>Poland.</hi>
+                     </p>
+                     <p>About this time, in <hi>December,</hi> his <hi>Imperial</hi> Majeſty began his
+<pb n="83" facs="tcp:151117:50"/>Journy towards <hi>Regensburg;</hi>
+                        <note place="margin">The Em<g ref="char:EOLhyphen"/>perour begins his Jour<g ref="char:EOLhyphen"/>ny to<g ref="char:EOLhyphen"/>ward <hi>Regenſ<g ref="char:EOLhyphen"/>burg.</hi>
+                        </note> and in his Abſence, the direction of the <hi>Frivy-Council</hi> at <hi>Vienna,</hi> was committed to the Count of <hi>Swartzenburg;</hi> and now were ſe<g ref="char:EOLhyphen"/>veral <hi>Rumours</hi> (how unlikely ſo<g ref="char:EOLhyphen"/>ever) raiſed at <hi>Vienna.</hi> Firſt, as if the <hi>Polanders</hi> intended to con<g ref="char:EOLhyphen"/>ferre that Crown upon young <hi>Ra<g ref="char:EOLhyphen"/>gotzi;</hi> to the end, to Incorporate <hi>Tranſylvania</hi> with <hi>Poland;</hi> and the young Prince was then to Marry into the Houſe of <hi>Inſpruck.</hi> It was bruited in the next place, that the <hi>Turkiſh Chiaux,</hi> who came along with <hi>Baron de Goes,</hi> brought with him <hi>Plenipotence</hi> to propound a new Treaty, and to offer new Conditions of Peace; but this was a Story that gained little credit; for who could be ſo ſimple as to believe, that ſo Crafty, Powerful, and ſo Inſolent
+<pb n="84" facs="tcp:151117:51"/>an Enemy, ſhould in the full courſe of his Victories, entertain any thought of admitting, much leſs of propounding an Agreement with a People, whom at this time, he did equally both hate and de<g ref="char:EOLhyphen"/>ſpiſe. The <hi>Chriſtians</hi> (one would think) had ſuffered too much, by their former Credulity, to truſt him again: And yet the late Go<g ref="char:EOLhyphen"/>vernour of <hi>Novigrad</hi> (<hi>Ledami</hi> by Name) was ſo eaſie, as to rely up<g ref="char:EOLhyphen"/>on the <hi>Turks</hi> word, and to per<g ref="char:EOLhyphen"/>ſwade himſelf, that by the ſur<g ref="char:EOLhyphen"/>rendry of <hi>Novigrad,</hi> he might compound for the full enjoyment of his goods in <hi>Tranſylvania;</hi> but he found himſelf deceived; being not onely bereaved of his Fortune, but effectually of his Life too, by the <hi>Barbarous</hi> uſage of thoſe perfidious <hi>Inſidels:</hi> The <hi>Turks</hi> it ſeems, not having as yet
+<pb n="85" facs="tcp:151117:51"/>forgotten the faithful ſervices in time paſt, which he had rendred to Prince <hi>Ragotzi,</hi> and that this <hi>Ledami</hi> had had a hand in putting <hi>Barkay</hi> to Death: (the <hi>Grand Signiors</hi> Creature, and who had formerly Uſurp'd upon that Prin<g ref="char:EOLhyphen"/>cipality, under the protection of the <hi>Turk.</hi>)</p>
+                     <p>The Strong-Hold <hi>Filleck</hi> was hard put to it, and ſuffered much; but has hitherto nevertheleſſe ſtood firm, and defended it ſelf to the utmoſt. The Fort <hi>Sent<g ref="char:EOLhyphen"/>ſhai</hi> indeed, in which one <hi>Ro<g ref="char:EOLhyphen"/>chart</hi> commanded, yielded un<g ref="char:EOLhyphen"/>worthily. True it is, that the <hi>Ottoman</hi> Army in the Field, was not now ſo numerous, as it was ſaid to be: It was yet ſtrong e<g ref="char:EOLhyphen"/>nough however to oppoſe the Country, and to keep many Strong Hold, and ſeveral Provinces, in
+<pb n="86" facs="tcp:151117:52"/>continual Apprehenſions and Al<g ref="char:EOLhyphen"/>larmes.</p>
+                     <p>The Various Motions, and Counter-Changes of the <hi>Turkiſh</hi> Army, had now for a good while amuſed the <hi>Chriſtians,</hi> giving them occaſion ſeveral times to draw to their Quarters, and then back again, till at laſt, the Ene<g ref="char:EOLhyphen"/>mies deſign diſcovered it ſelf to be directly upon new <hi>Serinſwar.</hi> In this <hi>Interim,</hi> little paſt of Moment, onely now and then the <hi>Free-Heydukes</hi> Iſſued out from <hi>Comorra,</hi> and ſometime met with a Purchaſe betwixt <hi>Gran</hi> and <hi>Newhauſel.</hi>
+                     </p>
+                     <p>About the Sixth of <hi>December,</hi> ſome Thouſand <hi>Turks</hi> and <hi>Tar<g ref="char:EOLhyphen"/>tars</hi> moved toward the River <hi>Mur,</hi>
+                        <note place="margin">The <hi>Turks</hi> de<g ref="char:EOLhyphen"/>ſigne up<g ref="char:EOLhyphen"/>on <hi>Se<g ref="char:EOLhyphen"/>rinſwar.</hi>
+                        </note> (which encloſes the Fort <hi>Serinſwar</hi>) with deſign to gain a Paſſage that way, and fall upon
+<pb n="87" facs="tcp:151117:52"/>Count <hi>Serini;</hi> not much doubt<g ref="char:EOLhyphen"/>ing by that means to make them<g ref="char:EOLhyphen"/>ſelves Maſters of the Fort.<note place="margin">They paſs the <hi>Mur.</hi>
+                        </note> A matter of two Thouſand of them had the fortune to paſs the River, but it proved their Ruine: For Count <hi>Serini</hi> (<hi>forewarned, fore<g ref="char:EOLhyphen"/>armed,</hi> and) finding his Life and Fortune at ſtake; with his ſmall, but Valiant Party, fell upon the two Thouſand <hi>Infidels</hi> with ſuch a Prodigious Fury and Courage, that they quickly turn'd Head, and by their flight, eaſt the reſt of the Party into ſuch a confuſi<g ref="char:EOLhyphen"/>on, that they loſt at once, both the uſe of their Reaſon, and Re<g ref="char:EOLhyphen"/>ſolution;<note place="margin">And are Worſted.</note> and more of them pe<g ref="char:EOLhyphen"/>riſh'd in the Retreat, then in the Combat: During this Action, <hi>Serini</hi> received hourly ſupplies, without which, it had not been poſſible for him to have main<g ref="char:EOLhyphen"/>tained
+<pb n="88" facs="tcp:151117:53"/>the fight ſo long: A ful<g ref="char:EOLhyphen"/>ler view whereof, may be gather<g ref="char:EOLhyphen"/>ed from what follows.</p>
+                     <floatingText type="letter" xml:lang="eng">
+                        <body>
+                           <head>The Copy of a Letter from Count <hi>Nicholas Serini</hi> to His <hi>Imperial</hi> Majeſty.</head>
+                           <p>THe Providence of God did never more ſignally appear then <hi>Yeſterday,</hi> in the preſervati<g ref="char:EOLhyphen"/>on not onely of my ſelf, and the Forces uner my Command, but likewiſe of all the Neighbouring Countries hereabouts: At which time the <hi>Turks</hi> and <hi>Tartars</hi> with a mighty Power, and in the open day, advanced toward us, bring<g ref="char:EOLhyphen"/>ing with them an orderly well-framed <hi>Ship-Bridge,</hi> with all
+<pb n="89" facs="tcp:151117:53"/>things appertaining thereunto; and two thouſand <hi>Tartars</hi> were ſent before, to lay it, and make it ready for the reſt of the Forces. The little ſtrength I had, I diſpo<g ref="char:EOLhyphen"/>ſed here, and there, as I thought moſt for my advantage, and kept Guard my ſelf with three Hun<g ref="char:EOLhyphen"/>dred Horſe. About break of day, notice was given me by a <hi>Warn<g ref="char:EOLhyphen"/>ing-Piece,</hi> of the Infidels ap<g ref="char:EOLhyphen"/>proach: Whereupon I inſtantly moved into ſight, and found that two thouſand of the Enemy were already over the water; our con<g ref="char:EOLhyphen"/>dition was now deſperate, it being neither poſſible for me to make a faire Retreat, nor indeed adviſe<g ref="char:EOLhyphen"/>able to think of one; in this ſtreight we took up a reſolution, and Char<g ref="char:EOLhyphen"/>ged into the middle of their Body, where we were wholly encompaſ<g ref="char:EOLhyphen"/>ſed; but God Almighty, out of
+<pb n="90" facs="tcp:151117:54"/>his Love to <hi>Chriſtendome,</hi> took a<g ref="char:EOLhyphen"/>way the Enemies Strength and Courage: for after the firſt ſhower of Arrowes, (that look'd as if it would have buried us, although doing very little Execution upon us) ſuch a conſternation ſeized them all, that they preſently fled toward the <hi>Mur,</hi> where Encoun<g ref="char:EOLhyphen"/>tering their Fellowes that were coming over to their aſſiſtance, they fell into ſuch a diſtraction and amazement, that they could neither Advance, nor Retire, nor Swim, nor ſave themſelves by Re<g ref="char:EOLhyphen"/>ſiſting. In fine, the face of the River was quite covered with Horſe and Men; and of this op<g ref="char:EOLhyphen"/>portunity, I made what uſe I could, taking not ſo much as one Priſoner; ſo that betwixt killing and drowning, not many of them eſcaped: Above a thouſand of
+<pb n="91" facs="tcp:151117:54"/>their empty Horſes we took com<g ref="char:EOLhyphen"/>ing out of the River, but the reſt, together with their Riders (ſaving a very few) ſank to the bottom.</p>
+                           <p>Hereupon, they ſent immediate<g ref="char:EOLhyphen"/>ly for their foot, (being not far from the place) but before they could come on, two hundred of my own Foot came up to me with two Field-Pieces, and with theſe we maintained our Ground till the reſt of my men came in like<g ref="char:EOLhyphen"/>wiſe from other Parts; and when we had fought out the whole Day, and into the Night, the Enemy drew off before Morning in great Silence and Indignation. This <hi>Yeſterdayes</hi> Deliverance and Vi<g ref="char:EOLhyphen"/>ctory muſt never be forgotten, either by us, or our Neighbours; and yet how it may go hereafter with us, in the condition we now ſtand; no man is able to deter<g ref="char:EOLhyphen"/>mine;
+<pb n="92" facs="tcp:151117:55"/>the <hi>Turk</hi> lying ſtill in a great Body about <hi>Caniſia;</hi> and only waiting for an Opportunity of taking his Revenge. Touching the ſtrength of their Army, and who Commands it, I cannot ren<g ref="char:EOLhyphen"/>der your <hi>Imperial</hi> Majeſty any warrantable Account, having taken no Priſoners; but common Report ſpeaks them to be <hi>40000</hi> ſtrong; although I muſt confeſs, that to my Eye, from the other ſide of the Water, they did not appear to be above <hi>10000</hi> Men. Their drift was undoubtedly to quit ſcores for the Miſchief my men had done them near <hi>Co<g ref="char:EOLhyphen"/>morra;</hi> to Plunder, and Deſtroy the Iſland; to enter into <hi>Steir-Mark,</hi> where they might have Ravaged, as far as <hi>Gratz,</hi> with<g ref="char:EOLhyphen"/>out any Oppoſition: After which, to paſs the <hi>Mur;</hi> and again to
+<pb n="93" facs="tcp:151117:55"/>March about to Count <hi>Budiani</hi>'s Territorries; and ſo to lie upon the Frontiers.</p>
+                           <p>This Enformation, according to the beſt of my Knowledge, I do preſent moſt Dutifully to Your <hi>Imperial</hi> Majeſty, with my hum<g ref="char:EOLhyphen"/>ble Requeſt, that You will Graci<g ref="char:EOLhyphen"/>ouſly be pleaſed, to Order ſome further proviſion of <hi>Men, Artil<g ref="char:EOLhyphen"/>lery, Ammunition,</hi> and other Ne<g ref="char:EOLhyphen"/>ceſſaries for theſe Parts; or we muſt all yet be Ruin'd at laſt. God preſerve your Majeſty in a good Government.</p>
+                           <closer>
+                              <dateline>Seredin, <date>Novemb. <hi>29. 1663.</hi>
+                                 </date>
+                              </dateline>
+                              <signed>
+                                 <hi>Your</hi> Imperial <hi>Majeſties moſt Obedient, and Loyal Servant,</hi> NICHOLAS SERINI.</signed>
+                           </closer>
+                        </body>
+                     </floatingText>
+                     <pb n="94" facs="tcp:151117:56"/>
+                     <p>Upon this Rout abovementio<g ref="char:EOLhyphen"/>ned, <hi>Serini</hi> with his <hi>Croats</hi> about a Thouſand ſtrong, preſſed the Enemy ſo hard in the Rear, that at this Bout, there were ſlain and drown'd of them at leaſt three Thouſand: The Souldiers got good Booty, beſide three Piece of <hi>Ordnance,</hi> one <hi>Morter-Piece,</hi> many <hi>Ammunition-Wagons,</hi> and other things that their haſt would not give them leave to ſtay for; and ſo they Retired to <hi>Caniſia.</hi>
+                     </p>
+                     <p>The <hi>Turks</hi> were at this time Strong and Numerous about that Quarter, intending, as is already ſaid, an attempt upon <hi>Serinſwar:</hi> The ten Thouſand before-menti<g ref="char:EOLhyphen"/>oned being reckoned only as their <hi>Van.</hi> This diſappointment gall'd the <hi>Grand Vizier</hi> to the Heart, and minded him of his late Diſ<g ref="char:EOLhyphen"/>aſter at <hi>Carlſtadt,</hi> where <hi>Peter
+<pb n="95" facs="tcp:151117:56"/>Serini</hi> had treated him much at the ſame Rate, which made him threaten Count <hi>Nich. Serini,</hi> &amp; his Fort, with the bittereſt Expreſſi<g ref="char:EOLhyphen"/>ons imaginable of <hi>Indignation</hi> and <hi>Revenge:</hi> Whereupon the Count Sollicited his <hi>Imperial</hi> Ma<g ref="char:EOLhyphen"/>jeſty for Aid, and at his Requeſt, the Earl of <hi>Hohenlo</hi> was ordered with ſix Thouſand men to be at hand to Second him.</p>
+                     <p>While theſe beaten Dogs were licking their Wounds at <hi>Caniſia,</hi> contenting themſelves for a while to Bark, where they could not Bite. General <hi>Souches</hi> in Con<g ref="char:EOLhyphen"/>junction with the Forces of <hi>Saxe, Brandenburg, Bohemia,</hi> and <hi>Mo<g ref="char:EOLhyphen"/>ravia,</hi> Marched fourteen Thou<g ref="char:EOLhyphen"/>ſand ſtrong toward the <hi>Mine-Towns,</hi> to make all good againſt <hi>Abafti.</hi> In their March, they paſſed as far as <hi>Neutra</hi> and <hi>New<g ref="char:EOLhyphen"/>hauſel,</hi>
+                        <pb n="96" facs="tcp:151117:57"/>without any Encounter; no Enemy appearing in the Field, and the Houſes and Caſtles along the way, which the <hi>Turks</hi> a while before had Garriſoned, were now found Empty; into which the Count put Garriſons to keep all open behind him. <hi>Lewents,</hi> he took by Aſſault, being but weak<g ref="char:EOLhyphen"/>ly Man'd, and put about four Hundred that were in it to the Sword.</p>
+                     <p>While theſe things were doing, <hi>Abafti</hi> plaid his Game another way; labouring by Craft and In<g ref="char:EOLhyphen"/>ſinuations, to bring over the <hi>Pro<g ref="char:EOLhyphen"/>vincial-States,</hi> which were aſſem<g ref="char:EOLhyphen"/>bled at <hi>Caſhaw,</hi> to his Party; and ſo to Unite thoſe <hi>Corporations</hi> unto <hi>Tranſylvania.</hi>
+                     </p>
+                     <p>
+                        <hi>December,</hi>
+                        <note place="margin">Baron <hi>de Goes</hi> comes to <hi>Vienna.</hi>
+                        </note> 10. <hi>Baron de Goes</hi> came to <hi>Vienna,</hi> and confirmed the Report of the Enemies migh<g ref="char:EOLhyphen"/>ty
+<pb n="97" facs="tcp:151117:57"/>Preparations; further intima<g ref="char:EOLhyphen"/>ting, that the <hi>Grand Signior</hi> was reſolved to Proſecute the War; unleſs <hi>Tranſylvania</hi> ſhould be wholly Surrendred to him; <hi>Se<g ref="char:EOLhyphen"/>rinſwar</hi> Demoliſhed, and <hi>Hun<g ref="char:EOLhyphen"/>gary</hi> ſubmit to pay him a yearly <hi>Tribute.</hi> At his laſt Audience, the <hi>Great Vizier</hi> ſaid little more, then (ſmilingly) that he might go to his <hi>Emperour;</hi> and that he himſelf intended within a while to wait upon him with <hi>three or four Hundred Thouſand</hi> Men,<note place="margin">The Great Vizier's Bravado.</note> to Talk with the <hi>Croatians,</hi> and give the <hi>Germans</hi> a Viſit.</p>
+                     <p>When his <hi>Imperial</hi> Majeſty was come almoſt to <hi>Regenſpurg,</hi> the Baron made Ready to follow him, to give his Majeſty an Ac<g ref="char:EOLhyphen"/>compt of his Errand; together with a <hi>Miſſive</hi> from the <hi>Turkiſh Emperour,</hi> ſealed up in a Red Velvet Bag. 'Tis ſaid, that three
+<pb n="98" facs="tcp:151117:58"/>Hundred <hi>Turkiſh</hi> Horſe had Way<g ref="char:EOLhyphen"/>laid him, upon his Paſſage from <hi>Offen;</hi> and it was ſuſpected to have been done by Order; but an Over-ruling Providence pre<g ref="char:EOLhyphen"/>ſerved him from the Ambuſh. Of all the Diſcourſes, that paſ<g ref="char:EOLhyphen"/>ſed from him; the ſaddeſt was, the Relation he made of about <hi>Thirty Thouſand</hi> Naked <hi>Chriſti<g ref="char:EOLhyphen"/>ans,</hi>
+                        <note place="margin">A ſad Specta<g ref="char:EOLhyphen"/>cle.</note> in Fetters, and Chains, Whip<g ref="char:EOLhyphen"/>ped, and driven along before his Face; and ſo carried away (leſſe Regarded then Beaſts) into Per<g ref="char:EOLhyphen"/>petual Slavery: Which Hideous Outrages, were not yet commit<g ref="char:EOLhyphen"/>ted, without a pretended Impulſe of Piety, &amp; Conſcience, as may ap<g ref="char:EOLhyphen"/>pear by one of their Blaſphemous Prayers againſt the <hi>Chriſtians.</hi>
+                     </p>
+                     <q>
+                        <floatingText xml:lang="eng">
+                           <body>
+                              <div type="prayer">
+                                 <head>THE <hi>T<g ref="char:V">Ʋ</g>RKS</hi> PRAYER.</head>
+                                 <p>
+                                    <hi>THou God of all things, and thou divine Prophet</hi> Ma<g ref="char:EOLhyphen"/>homet!
+<pb n="99" facs="tcp:151117:58"/>
+                                    <hi>Although we do not in the leaſt, fear the</hi> Chriſtians <hi>(who believe in their dead God, and like mad Dogs Wor<g ref="char:EOLhyphen"/>ry one another) becauſe that we in Strength and Force are much above them, through thy Aſſiſtance and Power. We do however beſeech thee, to ſtretch forth thy mighty hand againſt thoſe thy Enemies; and to help us ſuddainly to Deſtroy them: to root out the whole Race of them, with their Wives and Children; to lay waſte their Lands, and to break their Wea<g ref="char:EOLhyphen"/>pons in pieces; that theſe mad People may become yet more like unto mad Dogs, Amazing
+<pb n="100" facs="tcp:151117:59"/>and Confounding one another; deliver them into our Hands according to our long and ear<g ref="char:EOLhyphen"/>neſt deſire; to the end, that we may every where advance thy <g ref="char:V">Ʋ</g>ncorruptible Kingdom. Make thy</hi> Crown <hi>Glorious, and thy</hi> Temples <hi>Famous throughout the world, Adorning them with the Oblation of many Heads. Blow us like a whirlwind into their Countries, and let them be to us, but as a ſmall Prey. Fling</hi> Fire <hi>among them to</hi> Con<g ref="char:EOLhyphen"/>ſume <hi>them, and</hi> Duſt <hi>into their Eyes to make them</hi> Blind. <hi>De<g ref="char:EOLhyphen"/>vour them in thy Wrath; Tear them with thy Teeth; Let them drink their own Bloud, and
+<pb n="101" facs="tcp:151117:59"/>take thou away their Fleſh from the Earth; becauſe they deſpiſe thy Offering and</hi> Cir<g ref="char:EOLhyphen"/>cumciſion. <hi>Hang them on the</hi> Croſs; <hi>Let them be ſprinkled with Water till they grow Mad, becauſe they make a</hi> Son <hi>to God without a</hi> Mother. <hi>Now let their Ruine haſten, and take them away from the Face of the Earth, that thy Name may not fall into Contempt for their ſakes.</hi>
+                                 </p>
+                              </div>
+                           </body>
+                        </floatingText>
+                     </q>
+                     <p>It was now about the middle of <hi>December,</hi> and the Enemy made great Preparations to take the Benefit of the firſt hard Froſt: Whereupon, ſtrong Guards were ſet upon the Rivers; and <hi>Vienna</hi> was at that time much troubled,
+<pb n="102" facs="tcp:151117:60"/>with a Diſcourſe of pulling down a good part of the Suburbs, to make the place Defenſible. The Enemy had his Eye now upon <hi>Moravia;</hi> and for Prevention, the New-raiſed Forces in <hi>Vienna,</hi> were Ordered to the River <hi>Mark,</hi> to keep a conſtant Watch upon the <hi>Infidels. Presburg</hi> was alſo care<g ref="char:EOLhyphen"/>fully provided for, &amp; a <hi>Subterra<g ref="char:EOLhyphen"/>nean</hi> Retreat made from the City, to the Caſtle, for an After-game, in caſe the Town ſhould come to be Taken. About the beginning of <hi>December,</hi>
+                        <note place="margin">Three Suns.</note> there had been ſeen <hi>three Suns</hi> (ſome ſay <hi>five</hi>) with ſeveral <hi>Rain-Bows,</hi> that appeared over the famous Fort of <hi>Dreiſ<g ref="char:EOLhyphen"/>den,</hi> which began now to work upon the People: So that mens Minds were filled with Perplexi<g ref="char:EOLhyphen"/>ty, both from Above, and Be<g ref="char:EOLhyphen"/>neath. Some would have it, that the three <hi>Suns</hi> portended ſo many
+<pb n="103" facs="tcp:151117:60"/>mighty <hi>Princes,</hi> that ſhould come to be Rulers over <hi>Germany;</hi> and briefly, every man had his Gueſs. (God grant Peace and Comfort to <hi>Chriſtendom.</hi>) It was now daily expected, that the <hi>Turkiſh</hi> Army ſhould attempt ſomething in Re<g ref="char:EOLhyphen"/>venge of the Blow they had lately received near <hi>Caniſia;</hi> and Prince <hi>Abaſty</hi> was on the other ſide ob<g ref="char:EOLhyphen"/>ſerved to aſpire more directly to the Crown of <hi>Hungary;</hi> but the Vigilance of Counts <hi>Serini, Ho<g ref="char:EOLhyphen"/>henlo, Souches,</hi> &amp;c. ſtill found means, either to divert, or diſap<g ref="char:EOLhyphen"/>point the moſt dangerous part of their deſignes. They kept how<g ref="char:EOLhyphen"/>ever in a Body near <hi>Caniſia,</hi> mak<g ref="char:EOLhyphen"/>ing many proffers upon the <hi>Chriſti<g ref="char:EOLhyphen"/>ans</hi> Territories; although to little purpoſe; Heaven and Earth con<g ref="char:EOLhyphen"/>ſpiring to fruſtrate their Intents, by a mild and open Winter, and the Conjunction of ſo many brave
+<pb n="104" facs="tcp:151117:61"/>Commnanders, keeping a Watch, and check upon their paſſage. On the other ſides; thoſe <hi>Turks</hi> which lay near to <hi>Offen,</hi> and a<g ref="char:EOLhyphen"/>long the <hi>Danube,</hi> (even as far as the <hi>Save</hi>) took great care to main<g ref="char:EOLhyphen"/>taine themſelves in a Body, and to provide before hand for the next <hi>Campagnia;</hi> furniſhing <hi>New<g ref="char:EOLhyphen"/>hauſel,</hi> and <hi>Newtra,</hi> with Am<g ref="char:EOLhyphen"/>munition, Proviſion, and all other things whereof they had need; and in particular with 40000. Suits of Cloths, for the ſupply of their tattered Troops: But Provi<g ref="char:EOLhyphen"/>dence diſpoſed otherwiſe of a good part of theſe <hi>Turkiſh</hi> Provi<g ref="char:EOLhyphen"/>dings, by caſting them into the hands of theGarriſon at <hi>Comorra,</hi> which upon ſeveral Sallies had the better of the Enemy, and many times brought off conſiderable Booty into the Caſtle. As for in<g ref="char:EOLhyphen"/>ſtance, on the 15th of <hi>December,</hi>
+                        <pb n="105" facs="tcp:151117:61"/>they ſnapt a prize of 60 Wagons (drawn by 400 Oxen) laden with Ammunition, and comming from <hi>Gran</hi> for <hi>Newhauſel,</hi> which they caryed off ſafely to <hi>Comorra;</hi> the Purchaſe being valued at 16000. <hi>Rix-dollars.</hi> Thoſe Carriages were committed to the Convoy of 300 men, whom they ſurprized, and Routed, diſtributing the Oxen amnong the Garriſon.</p>
+                     <p>About this time, Tidings were brought from <hi>Adrianople,</hi> that 50000 of the <hi>Aſiatick</hi> Forces were come thither, &amp; to the Parts there<g ref="char:EOLhyphen"/>abouts, to take up their <hi>Winter-Quarters;</hi> and that there was a Monſtrous Tax laid upon all the <hi>Turkiſh</hi> Dominions, in order to the carrying on the War againſt the <hi>Chriſtians.</hi> The <hi>Turks</hi> and <hi>Tartars</hi> were now at <hi>Five-kirk,</hi> and elſewhere waiting for a Froſt, in great Bodies, having furniſhed
+<pb n="106" facs="tcp:151117:62"/>themſelves with many Thouſands of <hi>Sleds,</hi> for the furtherance of the Deſign; but the Seaſon was ſo gentle, that they could make nothing on't. As on the other ſide of the <hi>Danube,</hi> toward <hi>Cro<g ref="char:EOLhyphen"/>atia,</hi> there paſſed not any thing conſiderable at this time: So not much of Action neither, by the Forces of General <hi>Souches,</hi> which drew toward the <hi>Mine-Townes.</hi> A Party of <hi>Chriſtians,</hi> in <hi>Turkiſh</hi> habits, adventured into <hi>Neutra,</hi> and killed ſome of the <hi>Turks;</hi> but the Caſtle preſently took the Alarm, and put them to a Re<g ref="char:EOLhyphen"/>treat, wherein they ſaved them<g ref="char:EOLhyphen"/>ſelves, and carried away 20. con<g ref="char:EOLhyphen"/>ſiderable Priſoners; but a <hi>Turkiſh</hi> Party from <hi>Newhauſel</hi> to <hi>Schinta</hi> come not ſo well off; who ſup<g ref="char:EOLhyphen"/>poſing that the Garriſon, as well as the Artillery was removed; advanced ſo near the Place, that
+<pb n="107" facs="tcp:151117:62"/>what with he Guns from the Wall, and after that, a Sally out of the Town, 150. of them were kill'd upon the Spot, and the reſt fled for their lives. They were now buſie in <hi>Vienna,</hi> upon Mounting and fitting the Artillery that came from <hi>Schinta,</hi> and caſt<g ref="char:EOLhyphen"/>ing of <hi>Granadoes,</hi> and <hi>Field-Pieces,</hi> keeping an eye in the mean while upon <hi>
+                           <g ref="char:V">Ʋ</g>pper-Hungary,</hi> where indeed the greateſt danger lay, by reaſon of the Practiſes, and Inſi<g ref="char:EOLhyphen"/>nuations of <hi>Abafti:</hi> for preven<g ref="char:EOLhyphen"/>tion whereof, the Counts of <hi>Ro<g ref="char:EOLhyphen"/>thal,</hi> and <hi>Nadaſti</hi> were employed to endeavour the upholding of the People in their Obedience. To which purpoſe, the Forces under the command of General <hi>Souches,</hi> where very ſerviceable: There was good hope likewiſe, that the <hi>Hungarian Palatine</hi> at <hi>Newſol,</hi> might have done ſome
+<pb n="108" facs="tcp:151117:63"/>good upon them, againſt the flat<g ref="char:EOLhyphen"/>teries of <hi>Abafti;</hi> but he excuſed himſelf in regard that he was neither in health; nor if he were, could he pretend to ſo much In<g ref="char:EOLhyphen"/>tereſt as to prevail upon them; beſide, that he miſtruſted <hi>Caſhaw,</hi> and other places in <hi>Hungary</hi> would take it ill at his hand: So that the Counts before mentio<g ref="char:EOLhyphen"/>ned, were forced to return, and ſeek their way through <hi>Po<g ref="char:EOLhyphen"/>land,</hi> into <hi>
+                           <g ref="char:V">Ʋ</g>pper-Hungary:</hi> Nei<g ref="char:EOLhyphen"/>ther were the Inhabitants of the <hi>Mine Towns</hi> any kinder to the Forces that were ſent to their Re<g ref="char:EOLhyphen"/>lief; but partly, by the ill uſage they found among the <hi>Hungari<g ref="char:EOLhyphen"/>ans;</hi> &amp; partly, upon neceſſity they were forced to go back, leaving many of their Companions be<g ref="char:EOLhyphen"/>hind them, that dyed of Surfets, and <hi>Hungarian</hi> Feavours. In fine, the <hi>Germans,</hi> and <hi>Hunga<g ref="char:EOLhyphen"/>rians</hi>
+                        <pb n="109" facs="tcp:151117:63"/>could not ſet their Horſes together; and <hi>Ahafti</hi> making uſe of their Diviſions, betwixt fear, and perſwaſion, drew a great Par<g ref="char:EOLhyphen"/>ty to his ſide. Theſe heart-burn<g ref="char:EOLhyphen"/>ings among the <hi>Chriſtians,</hi> were of great ſervice to the <hi>Infidels;</hi> Eſpecially being encouraged by Letters from <hi>Zekelheit,</hi> giving Ad<g ref="char:EOLhyphen"/>vice that the Garriſon had alrea<g ref="char:EOLhyphen"/>dy Revolted, and Expel'd their Commander, with all the chief Officers out of the Caſtle, upon pretence, that they had received thirteen Months Pay, that was then due to them, and kept it from them; openly declaring, that if they could get nothing where they were, they would ſerve another Maſter; (aiming no doubt at <hi>A<g ref="char:EOLhyphen"/>bafty.</hi>) This Example had ſo great an influence upon other pla<g ref="char:EOLhyphen"/>ces, that toward the end of this year, the whole <hi>
+                           <g ref="char:V">Ʋ</g>pper-Hungary</hi>
+                        <pb n="101" facs="tcp:151117:64"/>ſeem'd to be upon a deſperate Pin.</p>
+                     <p>By this time his <hi>Imperial</hi> Maje<g ref="char:EOLhyphen"/>ſty was ſafely arived at <hi>Regenſ<g ref="char:EOLhyphen"/>purg,</hi> where all diligence was uſed in preparations, and diſpatches for the Relief of the <hi>Empire;</hi> E<g ref="char:EOLhyphen"/>ſpecially, for ſending of Ayd to Count <hi>Serini,</hi> whoſe wants of Military Proviſions, were drawn out to the laſt point of expectati<g ref="char:EOLhyphen"/>on. It was alſo taken into thought, how to raiſe 10000. men in <hi>Hun<g ref="char:EOLhyphen"/>gary,</hi> without charging the Gen<g ref="char:EOLhyphen"/>try, out of a deſire to ſpare them, till the utmoſt Exigent of a Field expedition ſhould require it. At this time alſo were deſigned the Reſpective <hi>Imperial</hi> Embaſſa<g ref="char:EOLhyphen"/>dours, to be Employed to all <hi>Chri<g ref="char:EOLhyphen"/>ſtian</hi> Princes, and States, on the behalf of the Cauſe of <hi>Chriſten<g ref="char:EOLhyphen"/>dom,</hi> againſt the Common Ene<g ref="char:EOLhyphen"/>my; who threatens <hi>Hungary</hi> with
+<pb n="111" facs="tcp:151117:64"/>150000. men, and the <hi>Grand Sig<g ref="char:EOLhyphen"/>nior</hi> in the head of them. The <hi>Great <g ref="char:V">Ʋ</g>izier</hi> with 100000. men, to break into <hi>Croatia;</hi> and <hi>Aly Baſſa</hi> with 50000. men to com<g ref="char:EOLhyphen"/>mand in <hi>
+                           <g ref="char:V">Ʋ</g>pper-Hungary;</hi> the ſooner to bring <hi>Hungary, Auſtria, Moravia,</hi> and <hi>Sileſia,</hi> under Sub<g ref="char:EOLhyphen"/>jection to the <hi>Turk.</hi>
+                     </p>
+                     <p>Beſide the loſs of <hi>Zekelheit,</hi> and the wavering of all <hi>
+                           <g ref="char:V">Ʋ</g>pper-Hunga<g ref="char:EOLhyphen"/>ry;</hi> about this time was brought the ill news of 200. <hi>Sporkiſh</hi> Horſe going over to <hi>Newhauſel,</hi> for want of pay; and of the defeat of a Party of a matter of 120. that in their return from about <hi>Weiſſenburg,</hi> where they had ſei<g ref="char:EOLhyphen"/>zed good Booty, were ovrtaken by 400. <hi>Turks,</hi> 12. of them kill'd, 20. made Priſoners, and the reſt diſperſed; Neither as yet did Matters go much better toward the Frontiers of <hi>Croaetia,</hi> the <hi>Grand
+<pb n="112" facs="tcp:151117:65"/>Vizier</hi> ſummoning all the Bor<g ref="char:EOLhyphen"/>ders upon miſerable Penalties, to provide for the numerous <hi>Tartari<g ref="char:EOLhyphen"/>an</hi> forces, which had thoſe Parts Aſſigned them for their Quarter; but Count <hi>Serini</hi> thereupon com<g ref="char:EOLhyphen"/>manded immediately 600. <hi>Croa<g ref="char:EOLhyphen"/>tians</hi> to endeavour the breaking of their deſign, who perſued their Orders effectually, Burning all the Barns and Forrage for 12 miles round: So that the Enemy was forced to diſ-lodge, and Retire.</p>
+                     <p>Thus far the <hi>Dutch</hi> Relation of the laſt <hi>Campagnia;</hi> reſerving what has paſ<g ref="char:EOLhyphen"/>ſed ſince, for another occaſion; to be<g ref="char:EOLhyphen"/>gin from the breaking off of this: wherein the Reader may expect, over and above the ſcattered particulars of the more Ordinary Chances, and En<g ref="char:EOLhyphen"/>counters of the War, an exact and pun<g ref="char:EOLhyphen"/>ctual Narration apart, of Count <hi>Serini's</hi> late Inrode into <hi>Turkey;</hi> together with whatever elſe Remarkabel ſhall here<g ref="char:EOLhyphen"/>after occurre.</p>
+                  </div>
+                  <trailer>FINIS.</trailer>
+                  <pb facs="tcp:151117:65"/>
+                  <pb facs="tcp:151117:66"/>
+               </div>
+            </body>
+         </text>
+         <text xml:lang="eng">
+            <body>
+               <div type="unidentified_medical_fragment">
+                  <pb n="93" facs="tcp:151117:66"/>
+                  <head>
+                     <hi>Mouſe.</hi> Mus.</head>
+                  <list>
+                     <item>
+                        <gap reason="illegible" resp="#KEYERS" extent="2 letters">
+                           <desc>••</desc>
+                        </gap>moſt every where, in houſes and barnes, <hi>&amp;c.</hi>
+                     </item>
+                     <item>
+                        <gap reason="illegible" resp="#KEYERS" extent="1 word">
+                           <desc>〈◊〉</desc>
+                        </gap> bread, cheeſe, corne, and tallow, <hi>&amp;c.</hi>
+                     </item>
+                     <item>
+                        <gap reason="illegible" resp="#KEYERS" extent="2 letters">
+                           <desc>••</desc>
+                        </gap>s. Heb. Achar. Arab. Phir. Chald. Acbe.</item>
+                  </list>
+                  <p>
+                     <gap reason="illegible" resp="#KEYERS" extent="2 letters">
+                        <desc>••</desc>
+                     </gap>ſe. <hi>Arnold.</hi> T. The <hi>fleſh</hi> eaten cauſeth oblivion, and cor<g ref="char:EOLhyphen"/>
+                     <gap reason="illegible" resp="#KEYERS" extent="3 letters">
+                        <desc>•••</desc>
+                     </gap> the meat; yet thoſe of <hi>Calechut</hi> eate them; it is hot, ſo<gap reason="illegible" resp="#KEYERS" extent="2 letters">
+                        <desc>••</desc>
+                     </gap> 
+                     <gap reason="illegible" resp="#KEYERS" extent="3 letters">
+                        <desc>•••</desc>
+                     </gap>tiſh, and expelleth melancholy, ſo <hi>Rhaſ.</hi> and <hi>Albert.</hi> yet <gap reason="illegible" resp="#KEYERS" extent="1 word">
+                        <desc>〈◊〉</desc>
+                     </gap> doubteth therein. V. <hi>Plin.</hi> A Mouſe diſſected and applied, <gap reason="illegible" resp="#KEYERS" extent="1 word">
+                        <desc>〈◊〉</desc>
+                     </gap> out reeds, darts, and other things that ſtick in the fleſh. <hi>
+                        <gap reason="illegible" resp="#KEYERS" extent="2 letters">
+                           <desc>••</desc>
+                        </gap>cel.</hi> After being flead: and helps the wounds of Serpents. <hi>
+                        <gap reason="illegible" resp="#KEYERS" extent="1 word">
+                           <desc>〈◊〉</desc>
+                        </gap> Gal. Avic. Rhaſ. Albert.</hi> The ſame helpeth the wounds of <gap reason="illegible" resp="#KEYERS" extent="3 letters">
+                        <desc>•••</desc>
+                     </gap>ons. <hi>Plin.</hi> Applied freſh it helps the bitings of the ſhrew; <gap reason="illegible" resp="#KEYERS" extent="1 word">
+                        <desc>〈◊〉</desc>
+                     </gap> it ſelfe applied. It killeth warts, ſo <hi>Rhaſ.</hi> and <hi>Albert.</hi> Some <gap reason="illegible" resp="#KEYERS" extent="1 word">
+                        <desc>〈◊〉</desc>
+                     </gap> ſatt thereof roſted in a Gooſe againſt the ſcirrhus. <hi>Young</hi> 
+                     <gap reason="illegible" resp="#KEYERS" extent="2 letters">
+                        <desc>••</desc>
+                     </gap>uiſed, and reduced to the conſiſtence of an <hi>acopon</hi> with old <gap reason="illegible" resp="#KEYERS" extent="1 word">
+                        <desc>〈◊〉</desc>
+                     </gap> cauſe haire on the eyebrows. <hi>Dioſc. Rhaſ. Avic. Alber<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                           <desc>•</desc>
+                        </gap>.</hi> 
+                     <gap reason="illegible" resp="#KEYERS" extent="2 letters">
+                        <desc>••</desc>
+                     </gap>aten by children when roſted, they dry up their ſpittle. The Magicians eat them twice in a month againſt the paines <gap reason="illegible" resp="#KEYERS" extent="2 letters">
+                        <desc>••</desc>
+                     </gap>eth. <hi>Marcel.</hi> The water in which they have been boiled againſt the quinſey. <hi>Plin.</hi> So boiled with vervain. Boiled <gap reason="illegible" resp="#KEYERS" extent="2 letters">
+                        <desc>••</desc>
+                     </gap>ile and ſalt, they help the vices of the lungs, and ſpitting of Being boiled and eaten, they help childrens piſſing in bed: So the aſhes with wine or Goats milk. Being diſſected<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                        <desc>•</desc>
+                     </gap> 
+                     <gap reason="illegible" resp="#KEYERS" extent="2 letters">
+                        <desc>••</desc>
+                     </gap>ied they help the gout. <hi>Plin.</hi> The <hi>aſhes</hi> help burnings, <gap reason="illegible" resp="#KEYERS" extent="1 word">
+                        <desc>〈◊〉</desc>
+                     </gap> and the falling off of the haire, with that of cypreſſe balls, <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>oſe of a Mule, mnyrtle oile, that of a hedg-hog, ſandaracha, <gap reason="illegible" resp="#KEYERS" extent="1 word">
+                        <desc>〈◊〉</desc>
+                     </gap>, and tarre: the ſame with oile help the tetter. <hi>Archig<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                           <desc>•</desc>
+                        </gap>
+                     </hi> 
+                     <gap reason="illegible" resp="#KEYERS" extent="1 word">
+                        <desc>〈◊〉</desc>
+                     </gap> daily plaiſter-wiſe with axunge, it helpeth the alope<g ref="char:EOLhyphen"/>
+                     <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>ng firſt rubbed with garlick. <hi>R<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                           <desc>•</desc>
+                        </gap>aſis</hi> and <hi>Albertu<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                           <desc>•</desc>
+                        </gap>
+                     </hi> adde oile
+<pb n="94" facs="tcp:151117:67"/>the paines of the eares. <hi>Marcel. Plin.</hi> with honey rubbed on <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>eeth, they ſweeten the breath; but ſome adde the roots of <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>el <hi>Gal.</hi> The <hi>fleſh</hi> ſtamped with the yolk of an egge, to the c<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>
+                     <g ref="char:EOLhyphen"/>
+                     <gap reason="illegible" resp="#KEYERS" extent="2 letters">
+                        <desc>••</desc>
+                     </gap>ence of a cerot, and applied with a linnen cloth, helps the <gap reason="illegible" resp="#KEYERS" extent="2 letters">
+                        <desc>••</desc>
+                     </gap>oſe inflammation of the <hi>cornea. Plin. Marcel. Gal. Avi<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                           <desc>•</desc>
+                        </gap>.</hi> 
+                     <gap reason="illegible" resp="#KEYERS" extent="1 word">
+                        <desc>〈◊〉</desc>
+                     </gap> 
+                     <hi>bloud</hi> killeth wa<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>ts <hi>Gal.</hi> With the gall of a Cock, and <gap reason="illegible" resp="#KEYERS" extent="1 word">
+                        <desc>〈◊〉</desc>
+                     </gap> 
+                     <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>milk <hi>an.</hi> it mightily helpeth ſuffuſion. <hi>Plin.</hi> The a<gap reason="illegible" resp="#KEYERS" extent="3 letters">
+                        <desc>•••</desc>
+                     </gap> 
+                     <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>he <hi>skinne,</hi> applied with vineger help the paines of the head. <gap reason="illegible" resp="#KEYERS" extent="1 word">
+                        <desc>〈◊〉</desc>
+                     </gap> 
+                     <hi>
+                        <gap reason="illegible" resp="#KEYERS" extent="2 letters">
+                           <desc>••</desc>
+                        </gap>bert.</hi> The <hi>head</hi> worne in a cloth, helps the headach and ep<g ref="char:EOLhyphen"/>
+                     <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>y. <hi>Gal.</hi> The aſhes of the head with honey helpe the alo<gap reason="illegible" resp="#KEYERS" extent="3 letters">
+                        <desc>•••</desc>
+                     </gap> Some ſe them with hellebore and pepper after cantharides, <gap reason="illegible" resp="#KEYERS" extent="1 word">
+                        <desc>〈◊〉</desc>
+                     </gap> and nitre; as alſo flies torrified. <hi>Sext.</hi> The aſhes with honey <gap reason="illegible" resp="#KEYERS" extent="1 word">
+                        <desc>〈◊〉</desc>
+                     </gap> 
+                     <gap reason="illegible" resp="#KEYERS" extent="3 letters">
+                        <desc>•••</desc>
+                     </gap>en dayes, cleare the eyes. With that of a hare, and ſpike <gap reason="illegible" resp="#KEYERS" extent="2 letters">
+                        <desc>••</desc>
+                     </gap>hey ſweeten the breath. <hi>Marcel.</hi> The <hi>braine</hi> being ſteeped in <gap reason="illegible" resp="#KEYERS" extent="1 word">
+                        <desc>〈◊〉</desc>
+                     </gap> and applied to the forehead helpeth the headach. Uſed with <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>er it cureth the phrenſey. <hi>Sext.</hi> The <hi>heart</hi> taken out of a <gap reason="illegible" resp="#KEYERS" extent="1 word">
+                        <desc>〈◊〉</desc>
+                     </gap> when alive, worne about the arme of a Woman, cauſeth no <gap reason="illegible" resp="#KEYERS" extent="1 word">
+                        <desc>〈◊〉</desc>
+                     </gap> 
+                     <gap reason="illegible" resp="#KEYERS" extent="2 letters">
+                        <desc>••</desc>
+                     </gap>ption. <hi>Seren.</hi> The filler of the <hi>liver</hi> drunk with auſtere <gap reason="illegible" resp="#KEYERS" extent="1 word">
+                        <desc>〈◊〉</desc>
+                     </gap> helpeth quartans. <hi>Gal.</hi> The liver roſted in the new of the <gap reason="illegible" resp="#KEYERS" extent="1 word">
+                        <desc>〈◊〉</desc>
+                     </gap> 
+                     <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>rie<gap reason="illegible" resp="#KEYERS" extent="3 letters">
+                        <desc>•••</desc>
+                     </gap> the epilepſy. <hi>Plin. Marcel. Seren.</hi> The <hi>gall</hi> with v<gap reason="illegible" resp="#KEYERS" extent="2 letters">
+                        <desc>••</desc>
+                     </gap> dropped into the eare, bringeth out living creatures in the <hi>Plin.</hi> The <hi>dung</hi> is corroſive. <hi>AEt.</hi> It is mixed with remedies <gap reason="illegible" resp="#KEYERS" extent="1 word">
+                        <desc>〈◊〉</desc>
+                     </gap> 
+                     <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>ingworms. <hi>Plin.</hi> With vineger it helps lichens in the face, <gap reason="illegible" resp="#KEYERS" extent="1 word">
+                        <desc>〈◊〉</desc>
+                     </gap> 
+                     <gap reason="illegible" resp="#KEYERS" extent="2 letters">
+                        <desc>••</desc>
+                     </gap>rſt fomented with nitre and vineger. <hi>Marcel.</hi> So it helps <gap reason="illegible" resp="#KEYERS" extent="1 word">
+                        <desc>〈◊〉</desc>
+                     </gap> 
+                     <hi>
+                        <gap reason="illegible" resp="#KEYERS" extent="2 letters">
+                           <desc>••</desc>
+                        </gap>repſ.</hi> With earth-worms, white pepper; &amp; myrrhe <hi>an. un<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                           <desc>•</desc>
+                        </gap>
+                     </hi> mixed with vineger, and applied it helpeth the <hi>hemicrania.</hi> With frankincenſe and ſandaracha it diſcuſſeht the <hi>pani. <gap reason="illegible" resp="#KEYERS" extent="1 word">
+                           <desc>〈◊〉</desc>
+                        </gap>
+                     </hi> Seven of the pills applied to the forehead or temples, with ger, helpe the paine thereof: <hi>Marcel.</hi> Stamped with the <hi>
+                        <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                           <desc>•</desc>
+                        </gap>tru<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                           <desc>•</desc>
+                        </gap>nus,</hi> and applied to the forehead with vineger, it pr<gap reason="illegible" resp="#KEYERS" extent="2 letters">
+                        <desc>••</desc>
+                     </gap>
+                     <g ref="char:EOLhyphen"/>
+                     <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>e<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>peth the paine of the <hi>hemicrania.</hi> With vineger it helps <gap reason="illegible" resp="#KEYERS" extent="1 word">
+                        <desc>〈◊〉</desc>
+                     </gap> 
+                     <hi>
+                        <gap reason="illegible" resp="#KEYERS" extent="1 word">
+                           <desc>〈◊〉</desc>
+                        </gap> Var</hi> It helps the alopecia. <hi>Dioſc.</hi> So with vineger, ſo <gap reason="illegible" resp="#KEYERS" extent="1 word">
+                        <desc>〈◊〉</desc>
+                     </gap> 
+                     <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>nd <hi>Gal.</hi> ſome add tarre alſo. <hi>Rhaſ. Albert.</hi> Some adde the<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                        <desc>•</desc>
+                     </gap> of r<gap reason="illegible" resp="#KEYERS" extent="2 letters">
+                        <desc>••</desc>
+                     </gap>ket, creſſes, onions or garlick. <hi>Avic.</hi> And honey, <hi>
+                        <gap reason="illegible" resp="#KEYERS" extent="1 word">
+                           <desc>〈◊〉</desc>
+                        </gap>
+                     </hi> frankincenſe, white hellebore, and pepper, with toſted <gap reason="illegible" resp="#KEYERS" extent="1 word">
+                        <desc>〈◊〉</desc>
+                     </gap> applied with that of a Goat and honey they help bald eye <gap reason="illegible" resp="#KEYERS" extent="1 span">
+                        <desc>〈…〉</desc>
+                     </gap>
+                  </p>
+               </div>
+            </body>
+         </text>
+      </group>
+   </text>
+</TEI>
